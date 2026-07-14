@@ -1,4 +1,4 @@
-import { browserManager } from "../browser/browser.manager.js";
+
 import { openUrl } from "./open-url.tool.js";
 import { ApplicationMemoryService } from "../memory/services/application.memory.service.js";
 

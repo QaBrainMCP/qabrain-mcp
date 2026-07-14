@@ -1,8 +1,10 @@
+import { Step } from "./step.model.js";
+
 export interface Scenario {
 
     name: string;
 
-    steps: string[];
+    steps: Step[];
 
 }
 

@@ -41,7 +41,21 @@ export class GherkinParser {
                 line.startsWith("And") ||
                 line.startsWith("But")
             ) {
-                currentScenario?.steps.push(line);
+                const spaceIndex = line.indexOf(" ");
+
+const keyword = line.substring(0, spaceIndex) as
+    | "Given"
+    | "When"
+    | "Then"
+    | "And"
+    | "But";
+
+const text = line.substring(spaceIndex + 1);
+
+currentScenario?.steps.push({
+    keyword,
+    text
+});
             }
 
         }

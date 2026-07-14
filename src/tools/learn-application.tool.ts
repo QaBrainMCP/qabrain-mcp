@@ -1,4 +1,4 @@
-import { browserManager } from "../browser/browser.manager.js";
+
 import { openUrl } from "./open-url.tool.js";
 // New
 import { ApplicationLearningService } from "../knowledge/services/application.learning.service.js";

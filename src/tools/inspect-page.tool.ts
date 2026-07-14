@@ -1,4 +1,4 @@
-import { browserManager } from "../browser/browser.manager.js";
+
 import { PageInspectService } from "../inspect/services/page.inspect.service.js";
 import { openUrl } from "./open-url.tool.js";
 

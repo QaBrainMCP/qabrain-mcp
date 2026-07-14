@@ -1,29 +1,55 @@
 {
   "name": "qabrain-mcp",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "AI-powered Browser Intelligence MCP for QA Automation",
-  "main": "index.js",
-  "type": "module",
-  "scripts": {
-    "dev": "tsx src/index.ts",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
   "author": "Soumya Ranjan Lenka",
   "license": "Apache-2.0",
-  "devDependencies": {
-    "@types/node": "^26.1.1",
-    "eslint": "^10.7.0",
-    "prettier": "^3.9.5",
-    "tsup": "^8.5.1",
-    "tsx": "^4.23.1",
-    "typescript": "^7.0.2",
-    "vitest": "^4.1.10"
+  "type": "module",
+  "main": "dist/index.js",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "dev": "tsx watch src/index.ts",
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "clean": "rimraf dist",
+    "lint": "eslint . --ext .ts",
+    "lint:fix": "eslint . --ext .ts --fix",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "test": "vitest",
+    "test:watch": "vitest --watch",
+    "typecheck": "tsc --noEmit"
   },
+  "keywords": [
+    "mcp",
+    "playwright",
+    "qa",
+    "automation",
+    "browser",
+    "ai",
+    "typescript"
+  ],
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.29.0",
     "pino": "^10.3.1",
     "pino-pretty": "^13.1.3",
     "playwright": "^1.61.1"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.0",
+    "@typescript-eslint/eslint-plugin": "^8.64.0",
+    "@typescript-eslint/parser": "^8.64.0",
+    "eslint": "^9.34.0",
+    "prettier": "^3.6.2",
+    "rimraf": "^6.0.1",
+    "tsup": "^8.5.1",
+    "tsx": "^4.23.1",
+    "typescript": "^5.9.2",
+    "vitest": "^4.1.10"
+  },
+  "engines": {
+    "node": ">=22"
   }
 }
