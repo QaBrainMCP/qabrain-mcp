@@ -32,4 +32,15 @@ export class LocatorDiscoveryService {
 
     }
 
+    matchKnownLocators(
+        elementNames: readonly string[],
+        knownLocators: readonly string[]
+    ): string[] {
+        return knownLocators.filter(locator =>
+            elementNames.some(element =>
+                locator.toLowerCase().includes(element.toLowerCase())
+            )
+        );
+    }
+
 }

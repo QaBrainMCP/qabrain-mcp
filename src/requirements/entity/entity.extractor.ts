@@ -9,11 +9,14 @@ export class EntityExtractor {
 
         const text = step.text;
 
-        if (text.includes("page")) {
+        const pageMatch = text.match(/(?:open(?:s)?|navigate(?:s)? to)\s+(.+?)\s+page/i)
+            ?? text.match(/^(.+?)\s+should\s+be\s+(?:displayed|shown|visible)/i);
+
+        if (pageMatch) {
 
             entities.push({
                 type: "PAGE",
-                value: text
+                value: pageMatch[1].replace(/^User\s+/i, "").trim()
             });
 
         }
@@ -23,18 +26,21 @@ export class EntityExtractor {
             text.includes("Password")
         ) {
 
-            entities.push({
-                type: "FIELD",
-                value: text
-            });
+            for (const field of ["Username", "Password"]) {
+                if (text.includes(field)) {
+                    entities.push({ type: "FIELD", value: field });
+                }
+            }
 
         }
 
-        if (text.includes("click")) {
+        const buttonMatch = text.match(/(?:clicks?|press(?:es)?|selects?)\s+(.+)/i);
+
+        if (buttonMatch) {
 
             entities.push({
                 type: "BUTTON",
-                value: text
+                value: `${buttonMatch[1].trim()} Button`
             });
 
         }

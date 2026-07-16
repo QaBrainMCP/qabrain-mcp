@@ -1,6 +1,8 @@
 import { Page } from "playwright";
 import { WorkflowEvent } from "../events/workflow.event.js";
 import { logger } from "../../utils/logger.js";
+import { applicationMapService } from "../../application/services/application-map.service.js";
+import { applicationExplorer } from "../../application/explorer/application.explorer.js";
 
 export class WorkflowRecorder {
 
@@ -47,6 +49,12 @@ export class WorkflowRecorder {
                 url: page.url(),
                 action: "Navigate"
             });
+            applicationMapService.rememberCurrentPage(
+    await page.title(),
+    page.url()
+);
+
+await applicationExplorer.explore(page);
 
         });
 

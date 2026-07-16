@@ -11,7 +11,7 @@ export async function findLocator(
 
     await openUrl(url);
 
-    const page = browserManager.getPage();
+    const page = await browserManager.ensurePage();
 
     const result = await service.find(page, elementName);
 

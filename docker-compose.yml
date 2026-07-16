@@ -1,0 +1,11 @@
+version: "3.9"
+
+services:
+  qabrain:
+    build: .
+    container_name: qabrain-mcp
+    ports:
+      - "3001:3001"
+    env_file:
+      - .env
+    restart: unless-stopped

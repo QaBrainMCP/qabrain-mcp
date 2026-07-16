@@ -1,10 +1,10 @@
-export interface MCPTool {
+export interface MCPTool<TArgs = unknown, TResult = unknown> {
 
     name: string;
 
     description: string;
 
-    execute(args: any): Promise<any>;
+    execute(args: TArgs): Promise<TResult>;
 
 }
 
@@ -12,19 +12,19 @@ export class ToolRegistry {
 
     private tools = new Map<string, MCPTool>();
 
-    register(tool: MCPTool) {
+    register(tool: MCPTool): void {
 
         this.tools.set(tool.name, tool);
 
     }
 
-    get(name: string) {
+    get(name: string): MCPTool | undefined {
 
         return this.tools.get(name);
 
     }
 
-    getAll() {
+    getAll(): MCPTool[] {
 
         return [...this.tools.values()];
 
