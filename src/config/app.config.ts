@@ -3,32 +3,42 @@ import type { NodeEnv } from "./environment.js";
 
 export function buildAppConfig(env: Record<string, string | undefined>) {
     return {
-        name: normalizeRequiredString(env.APP_NAME, "APP_NAME", "QaBrainMCP"),
-        version: normalizeRequiredString(env.APP_VERSION, "APP_VERSION", "0.1.0"),
+        // QaBrain application metadata
+        name: normalizeRequiredString(
+            env.APP_NAME,
+            "APP_NAME",
+            "QaBrainMCP"
+        ),
+        version: normalizeRequiredString(
+            env.APP_VERSION,
+            "APP_VERSION",
+            "1.0.1"
+        ),
         nodeEnv: normalizeNodeEnv(env.NODE_ENV),
 
-      application: {
-    name: normalizeRequiredString(
-        env.TARGET_APP_NAME,
-        "TARGET_APP_NAME",
-        "Application"
-    ),
-    url: normalizeRequiredString(
-        env.TARGET_APP_URL,
-        "TARGET_APP_URL",
-        ""
-    ),
-    username: normalizeRequiredString(
-        env.TARGET_APP_USERNAME,
-        "TARGET_APP_USERNAME",
-        ""
-    ),
-    password: normalizeRequiredString(
-        env.TARGET_APP_PASSWORD,
-        "TARGET_APP_PASSWORD",
-        ""
-    )
-}
+        // Target application under test
+        application: {
+            name: normalizeRequiredString(
+                env.TARGET_APP_NAME,
+                "TARGET_APP_NAME",
+                "Application"
+            ),
+            url: normalizeRequiredString(
+                env.APP_URL,
+                "APP_URL",
+                ""
+            ),
+            username: normalizeRequiredString(
+                env.APP_USERNAME,
+                "APP_USERNAME",
+                ""
+            ),
+            password: normalizeRequiredString(
+                env.APP_PASSWORD,
+                "APP_PASSWORD",
+                ""
+            )
+        }
     };
 }
 

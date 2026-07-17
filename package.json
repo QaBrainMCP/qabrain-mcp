@@ -5,9 +5,12 @@
   "author": "Soumya Ranjan Lenka",
   "license": "Apache-2.0",
   "type": "module",
-  "main": "dist/index.js",
+  "main": "dist/cli/index.js",
+  "exports": {
+    ".": "./dist/index.js"
+  },
   "bin": {
-    "qabrain": "./dist/cli/index.js"
+    "qabrain-mcp": "dist/cli/index.js"
   },
   "files": [
     "dist",
@@ -16,11 +19,14 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/<your-github-username>/qabrain-mcp.git"
+    "url": "git+https://github.com/QaBrainMCP/qabrain-mcp.git"
   },
-  "homepage": "https://github.com/<your-github-username>/qabrain-mcp",
+  "homepage": "https://github.com/QaBrainMCP/qabrain-mcp",
   "bugs": {
-    "url": "https://github.com/<your-github-username>/qabrain-mcp/issues"
+    "url": "https://github.com/QaBrainMCP/qabrain-mcp/issues"
+  },
+  "publishConfig": {
+    "access": "public"
   },
   "scripts": {
     "dev": "tsx watch src/index.ts",
@@ -35,7 +41,7 @@
     "test": "vitest",
     "test:watch": "vitest --watch",
     "test:ci": "vitest run --coverage --coverage.provider=v8 --coverage.reporter=text-summary --coverage.reporter=html --coverage.reporter=json-summary",
-    "verify:build": "node -e \"import('fs').accessSync('dist/index.js'); console.log('Build verified');\"",
+    "verify:build": "node -e \"import('fs').accessSync('dist/index.js'); import('fs').accessSync('dist/cli/index.js'); console.log('Build verified');\"",
     "doctor": "node dist/cli/index.js doctor",
     "cli": "node dist/cli/index.js",
     "version:show": "node dist/cli/index.js version"
@@ -43,15 +49,12 @@
   "keywords": [
     "mcp",
     "model-context-protocol",
-    "browser",
     "playwright",
     "qa",
     "automation",
-    "testing",
-    "ai",
+    "browser",
     "typescript",
-    "knowledge-graph",
-    "browser-intelligence"
+    "knowledge-graph"
   ],
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.29.0",
