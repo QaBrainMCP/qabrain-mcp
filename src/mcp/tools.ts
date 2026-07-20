@@ -1,6 +1,7 @@
 import { Server } from "@modelcontextprotocol/sdk/server/index.js";
 import { CallToolRequestSchema, ListToolsRequestSchema } from "@modelcontextprotocol/sdk/types.js";
 import { toolRegistry } from "./registry/tool.registry.js";
+import { logger } from "../utils/logger.js";
 
 interface MapRequirementArguments {
     feature: string;
@@ -132,6 +133,7 @@ async function executeLearnApplication(argumentsValue: unknown) {
     if (!isLearnApplicationArguments(argumentsValue)) {
         throw new Error("learn_application requires a string application argument");
     }
+    logger.info({ application: argumentsValue.application }, "MCP learn_application started");
     return executeTool("learn_application", argumentsValue);
 }
 
@@ -210,8 +212,16 @@ async function executeTool(name: string, argumentsValue: unknown) {
     if (!tool) {
         throw new Error(`${name} is not registered`);
     }
-    const result = await tool.execute(argumentsValue);
-    return { content: [{ type: "text" as const, text: JSON.stringify(result) }] };
+
+    try {
+        logger.info({ tool: name }, "MCP tool execution started");
+        const result = await tool.execute(argumentsValue);
+        logger.info({ tool: name }, "MCP tool execution completed");
+        return { content: [{ type: "text" as const, text: JSON.stringify(result) }] };
+    } catch (error) {
+        logger.error({ err: error, tool: name }, "MCP tool execution failed");
+        throw error;
+    }
 }
 
 function mapRequirementSchema() {

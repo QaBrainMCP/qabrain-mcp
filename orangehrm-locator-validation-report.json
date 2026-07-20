@@ -1,0 +1,2010 @@
+{
+  "application": "OrangeHRM",
+  "pageUrl": "https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index",
+  "discoveryDurationMs": 26284,
+  "totalDomElements": 374,
+  "totalDiscoveredComponents": 18,
+  "breakdown": {
+    "buttons": 3,
+    "links": 14,
+    "inputs": 1,
+    "dropdowns": 0,
+    "forms": 0,
+    "tables": 0,
+    "dialogs": 0
+  },
+  "components": [
+    {
+      "name": "Button 1",
+      "type": "buttons",
+      "bestLocator": "button:nth-of-type(1)",
+      "bestStrategy": "css",
+      "bestUniqueExactlyOne": false,
+      "fallbackCount": 1,
+      "allFallbacksValidUnique": true,
+      "reasonSelected": "Best Locator\nStrategy: css\nValue: button:nth-of-type(1)\nConfidence: 44\n\nReason:\nMay match multiple elements.\nPotentially volatile attribute usage.\nMay require framework-specific handling.\nDetected risks: duplicate id, nth-child selector.",
+      "validationResult": "FAIL",
+      "confidence": 44,
+      "automationRisk": "high",
+      "candidates": [
+        {
+          "strategy": "css",
+          "value": "button:nth-of-type(1)",
+          "confidence": 44,
+          "stability": 48,
+          "uniqueness": 33,
+          "maintainability": 63,
+          "readability": 97,
+          "automationRisk": "high",
+          "selfHealingCandidate": false,
+          "isValid": true,
+          "isUnique": false,
+          "matchedCount": 3,
+          "failureReasons": [
+            "duplicate id",
+            "nth-child selector"
+          ]
+        },
+        {
+          "strategy": "xpath",
+          "value": "/html[1]/body[1]/div[1]/div[1]/div[1]/aside[1]/nav[1]/div[2]/div[1]/div[1]/button[1]",
+          "confidence": 75,
+          "stability": 40,
+          "uniqueness": 100,
+          "maintainability": 38,
+          "readability": 33,
+          "automationRisk": "high",
+          "selfHealingCandidate": false,
+          "isValid": true,
+          "isUnique": true,
+          "matchedCount": 1,
+          "failureReasons": [
+            "generated xpath"
+          ]
+        }
+      ],
+      "fallbackLocators": [
+        {
+          "strategy": "xpath",
+          "value": "/html[1]/body[1]/div[1]/div[1]/div[1]/aside[1]/nav[1]/div[2]/div[1]/div[1]/button[1]",
+          "isValid": true,
+          "isUnique": true,
+          "matchedCount": 1
+        }
+      ]
+    },
+    {
+      "name": "Upgrade",
+      "type": "buttons",
+      "bestLocator": "Upgrade",
+      "bestStrategy": "visible-text",
+      "bestUniqueExactlyOne": true,
+      "fallbackCount": 1,
+      "allFallbacksValidUnique": true,
+      "reasonSelected": "Best Locator\nStrategy: visible-text\nValue: Upgrade\nConfidence: 96\n\nReason:\nUnique across page.\nPotentially volatile attribute usage.\nMay require framework-specific handling.\nNo dynamic values detected.",
+      "validationResult": "PASS",
+      "confidence": 96,
+      "automationRisk": "medium",
+      "candidates": [
+        {
+          "strategy": "visible-text",
+          "value": "Upgrade",
+          "confidence": 96,
+          "stability": 60,
+          "uniqueness": 100,
+          "maintainability": 72,
+          "readability": 100,
+          "automationRisk": "medium",
+          "selfHealingCandidate": false,
+          "isValid": true,
+          "isUnique": true,
+          "matchedCount": 1,
+          "failureReasons": []
+        },
+        {
+          "strategy": "xpath",
+          "value": "/html[1]/body[1]/div[1]/div[1]/div[1]/header[1]/div[1]/div[2]/a[1]/button[1]",
+          "confidence": 75,
+          "stability": 40,
+          "uniqueness": 100,
+          "maintainability": 39,
+          "readability": 35,
+          "automationRisk": "high",
+          "selfHealingCandidate": false,
+          "isValid": true,
+          "isUnique": true,
+          "matchedCount": 1,
+          "failureReasons": [
+            "generated xpath"
+          ]
+        }
+      ],
+      "fallbackLocators": [
+        {
+          "strategy": "xpath",
+          "value": "/html[1]/body[1]/div[1]/div[1]/div[1]/header[1]/div[1]/div[2]/a[1]/button[1]",
+          "isValid": true,
+          "isUnique": true,
+          "matchedCount": 1
+        }
+      ]
+    },
+    {
+      "name": "Button 3",
+      "type": "buttons",
+      "bestLocator": "/html[1]/body[1]/div[1]/div[1]/div[1]/header[1]/div[2]/nav[1]/ul[1]/div[1]/button[1]",
+      "bestStrategy": "xpath",
+      "bestUniqueExactlyOne": true,
+      "fallbackCount": 1,
+      "allFallbacksValidUnique": true,
+      "reasonSelected": "Best Locator\nStrategy: xpath\nValue: /html[1]/body[1]/div[1]/div[1]/div[1]/header[1]/div[2]/nav[1]/ul[1]/div[1]/button[1]\nConfidence: 75\n\nReason:\nUnique across page.\nPotentially volatile attribute usage.\nMay require framework-specific handling.\nDetected risks: generated xpath.",
+      "validationResult": "PASS",
+      "confidence": 75,
+      "automationRisk": "high",
+      "candidates": [
+        {
+          "strategy": "title",
+          "value": "[title=\"Help\"]",
+          "confidence": 99,
+          "stability": 66,
+          "uniqueness": 100,
+          "maintainability": 76,
+          "readability": 98,
+          "automationRisk": "low",
+          "selfHealingCandidate": false,
+          "isValid": true,
+          "isUnique": true,
+          "matchedCount": 1,
+          "failureReasons": []
+        },
+        {
+          "strategy": "xpath",
+          "value": "/html[1]/body[1]/div[1]/div[1]/div[1]/header[1]/div[2]/nav[1]/ul[1]/div[1]/button[1]",
+          "confidence": 75,
+          "stability": 40,
+          "uniqueness": 100,
+          "maintainability": 38,
+          "readability": 33,
+          "automationRisk": "high",
+          "selfHealingCandidate": false,
+          "isValid": true,
+          "isUnique": true,
+          "matchedCount": 1,
+          "failureReasons": [
+            "generated xpath"
+          ]
+        }
+      ],
+      "fallbackLocators": [
+        {
+          "strategy": "title",
+          "value": "[title=\"Help\"]",
+          "isValid": true,
+          "isUnique": true,
+          "matchedCount": 1
+        }
+      ]
+    },
+    {
+      "name": "Link 1",
+      "type": "links",
+      "bestLocator": "a:nth-of-type(1)",
+      "bestStrategy": "css",
+      "bestUniqueExactlyOne": false,
+      "fallbackCount": 2,
+      "allFallbacksValidUnique": true,
+      "reasonSelected": "Best Locator\nStrategy: css\nValue: a:nth-of-type(1)\nConfidence: 34\n\nReason:\nMay match multiple elements.\nPotentially volatile attribute usage.\nMay require framework-specific handling.\nDetected risks: duplicate id, nth-child selector.",
+      "validationResult": "FAIL",
+      "confidence": 34,
+      "automationRisk": "high",
+      "candidates": [
+        {
+          "strategy": "href",
+          "value": "[href=\"https://www.orangehrm.com/\"]",
+          "confidence": 98,
+          "stability": 68,
+          "uniqueness": 100,
+          "maintainability": 73,
+          "readability": 84,
+          "automationRisk": "low",
+          "selfHealingCandidate": false,
+          "isValid": true,
+          "isUnique": true,
+          "matchedCount": 1,
+          "failureReasons": []
+        },
+        {
+          "strategy": "css",
+          "value": "a:nth-of-type(1)",
+          "confidence": 34,
+          "stability": 48,
+          "uniqueness": 7,
+          "maintainability": 63,
+          "readability": 97,
+          "automationRisk": "high",
+          "selfHealingCandidate": false,
+          "isValid": true,
+          "isUnique": false,
+          "matchedCount": 14,
+          "failureReasons": [
+            "duplicate id",
+            "nth-child selector"
+          ]
+        },
+        {
+          "strategy": "xpath",
+          "value": "/html[1]/body[1]/div[1]/div[1]/div[1]/aside[1]/nav[1]/div[1]/a[1]",
+          "confidence": 75,
+          "stability": 40,
+          "uniqueness": 100,
+          "maintainability": 40,
+          "readability": 39,
+          "automationRisk": "high",
+          "selfHealingCandidate": false,
+          "isValid": true,
+          "isUnique": true,
+          "matchedCount": 1,
+          "failureReasons": [
+            "generated xpath"
+          ]
+        }
+      ],
+      "fallbackLocators": [
+        {
+          "strategy": "href",
+          "value": "[href=\"https://www.orangehrm.com/\"]",
+          "isValid": true,
+          "isUnique": true,
+          "matchedCount": 1
+        },
+        {
+          "strategy": "xpath",
+          "value": "/html[1]/body[1]/div[1]/div[1]/div[1]/aside[1]/nav[1]/div[1]/a[1]",
+          "isValid": true,
+          "isUnique": true,
+          "matchedCount": 1
+        }
+      ]
+    },
+    {
+      "name": "Admin",
+      "type": "links",
+      "bestLocator": "Admin",
+      "bestStrategy": "visible-text",
+      "bestUniqueExactlyOne": true,
+      "fallbackCount": 2,
+      "allFallbacksValidUnique": true,
+      "reasonSelected": "Best Locator\nStrategy: visible-text\nValue: Admin\nConfidence: 96\n\nReason:\nUnique across page.\nPotentially volatile attribute usage.\nMay require framework-specific handling.\nNo dynamic values detected.",
+      "validationResult": "PASS",
+      "confidence": 96,
+      "automationRisk": "medium",
+      "candidates": [
+        {
+          "strategy": "href",
+          "value": "[href=\"/web/index.php/admin/viewAdminModule\"]",
+          "confidence": 92,
+          "stability": 68,
+          "uniqueness": 100,
+          "maintainability": 70,
+          "readability": 75,
+          "automationRisk": "medium",
+          "selfHealingCandidate": false,
+          "isValid": true,
+          "isUnique": true,
+          "matchedCount": 1,
+          "failureReasons": [
+            "hashed value detected"
+          ]
+        },
+        {
+          "strategy": "visible-text",
+          "value": "Admin",
+          "confidence": 96,
+          "stability": 60,
+          "uniqueness": 100,
+          "maintainability": 72,
+          "readability": 100,
+          "automationRisk": "medium",
+          "selfHealingCandidate": false,
+          "isValid": true,
+          "isUnique": true,
+          "matchedCount": 1,
+          "failureReasons": []
+        },
+        {
+          "strategy": "xpath",
+          "value": "/html[1]/body[1]/div[1]/div[1]/div[1]/aside[1]/nav[1]/div[2]/ul[1]/li[1]/a[1]",
+          "confidence": 75,
+          "stability": 40,
+          "uniqueness": 100,
+          "maintainability": 38,
+          "readability": 33,
+          "automationRisk": "high",
+          "selfHealingCandidate": false,
+          "isValid": true,
+          "isUnique": true,
+          "matchedCount": 1,
+          "failureReasons": [
+            "generated xpath"
+          ]
+        }
+      ],
+      "fallbackLocators": [
+        {
+          "strategy": "href",
+          "value": "[href=\"/web/index.php/admin/viewAdminModule\"]",
+          "isValid": true,
+          "isUnique": true,
+          "matchedCount": 1
+        },
+        {
+          "strategy": "xpath",
+          "value": "/html[1]/body[1]/div[1]/div[1]/div[1]/aside[1]/nav[1]/div[2]/ul[1]/li[1]/a[1]",
+          "isValid": true,
+          "isUnique": true,
+          "matchedCount": 1
+        }
+      ]
+    },
+    {
+      "name": "PIM",
+      "type": "links",
+      "bestLocator": "PIM",
+      "bestStrategy": "visible-text",
+      "bestUniqueExactlyOne": true,
+      "fallbackCount": 2,
+      "allFallbacksValidUnique": true,
+      "reasonSelected": "Best Locator\nStrategy: visible-text\nValue: PIM\nConfidence: 96\n\nReason:\nUnique across page.\nPotentially volatile attribute usage.\nMay require framework-specific handling.\nNo dynamic values detected.",
+      "validationResult": "PASS",
+      "confidence": 96,
+      "automationRisk": "medium",
+      "candidates": [
+        {
+          "strategy": "href",
+          "value": "[href=\"/web/index.php/pim/viewPimModule\"]",
+          "confidence": 97,
+          "stability": 68,
+          "uniqueness": 100,
+          "maintainability": 71,
+          "readability": 79,
+          "automationRisk": "low",
+          "selfHealingCandidate": false,
+          "isValid": true,
+          "isUnique": true,
+          "matchedCount": 1,
+          "failureReasons": []
+        },
+        {
+          "strategy": "visible-text",
+          "value": "PIM",
+          "confidence": 96,
+          "stability": 60,
+          "uniqueness": 100,
+          "maintainability": 72,
+          "readability": 100,
+          "automationRisk": "medium",
+          "selfHealingCandidate": false,
+          "isValid": true,
+          "isUnique": true,
+          "matchedCount": 1,
+          "failureReasons": []
+        },
+        {
+          "strategy": "xpath",
+          "value": "/html[1]/body[1]/div[1]/div[1]/div[1]/aside[1]/nav[1]/div[2]/ul[1]/li[2]/a[1]",
+          "confidence": 75,
+          "stability": 40,
+          "uniqueness": 100,
+          "maintainability": 38,
+          "readability": 33,
+          "automationRisk": "high",
+          "selfHealingCandidate": false,
+          "isValid": true,
+          "isUnique": true,
+          "matchedCount": 1,
+          "failureReasons": [
+            "generated xpath"
+          ]
+        }
+      ],
+      "fallbackLocators": [
+        {
+          "strategy": "href",
+          "value": "[href=\"/web/index.php/pim/viewPimModule\"]",
+          "isValid": true,
+          "isUnique": true,
+          "matchedCount": 1
+        },
+        {
+          "strategy": "xpath",
+          "value": "/html[1]/body[1]/div[1]/div[1]/div[1]/aside[1]/nav[1]/div[2]/ul[1]/li[2]/a[1]",
+          "isValid": true,
+          "isUnique": true,
+          "matchedCount": 1
+        }
+      ]
+    },
+    {
+      "name": "Leave",
+      "type": "links",
+      "bestLocator": "Leave",
+      "bestStrategy": "visible-text",
+      "bestUniqueExactlyOne": false,
+      "fallbackCount": 2,
+      "allFallbacksValidUnique": true,
+      "reasonSelected": "Best Locator\nStrategy: visible-text\nValue: Leave\nConfidence: 46\n\nReason:\nMay match multiple elements.\nPotentially volatile attribute usage.\nMay require framework-specific handling.\nDetected risks: duplicate id.",
+      "validationResult": "FAIL",
+      "confidence": 46,
+      "automationRisk": "high",
+      "candidates": [
+        {
+          "strategy": "href",
+          "value": "[href=\"/web/index.php/leave/viewLeaveModule\"]",
+          "confidence": 92,
+          "stability": 68,
+          "uniqueness": 100,
+          "maintainability": 70,
+          "readability": 75,
+          "automationRisk": "medium",
+          "selfHealingCandidate": false,
+          "isValid": true,
+          "isUnique": true,
+          "matchedCount": 1,
+          "failureReasons": [
+            "hashed value detected"
+          ]
+        },
+        {
+          "strategy": "visible-text",
+          "value": "Leave",
+          "confidence": 46,
+          "stability": 60,
+          "uniqueness": 14,
+          "maintainability": 72,
+          "readability": 100,
+          "automationRisk": "high",
+          "selfHealingCandidate": false,
+          "isValid": true,
+          "isUnique": false,
+          "matchedCount": 7,
+          "failureReasons": [
+            "duplicate id"
+          ]
+        },
+        {
+          "strategy": "xpath",
+          "value": "/html[1]/body[1]/div[1]/div[1]/div[1]/aside[1]/nav[1]/div[2]/ul[1]/li[3]/a[1]",
+          "confidence": 75,
+          "stability": 40,
+          "uniqueness": 100,
+          "maintainability": 38,
+          "readability": 33,
+          "automationRisk": "high",
+          "selfHealingCandidate": false,
+          "isValid": true,
+          "isUnique": true,
+          "matchedCount": 1,
+          "failureReasons": [
+            "generated xpath"
+          ]
+        }
+      ],
+      "fallbackLocators": [
+        {
+          "strategy": "href",
+          "value": "[href=\"/web/index.php/leave/viewLeaveModule\"]",
+          "isValid": true,
+          "isUnique": true,
+          "matchedCount": 1
+        },
+        {
+          "strategy": "xpath",
+          "value": "/html[1]/body[1]/div[1]/div[1]/div[1]/aside[1]/nav[1]/div[2]/ul[1]/li[3]/a[1]",
+          "isValid": true,
+          "isUnique": true,
+          "matchedCount": 1
+        }
+      ]
+    },
+    {
+      "name": "Time",
+      "type": "links",
+      "bestLocator": "Time",
+      "bestStrategy": "visible-text",
+      "bestUniqueExactlyOne": false,
+      "fallbackCount": 2,
+      "allFallbacksValidUnique": true,
+      "reasonSelected": "Best Locator\nStrategy: visible-text\nValue: Time\nConfidence: 50\n\nReason:\nMay match multiple elements.\nPotentially volatile attribute usage.\nMay require framework-specific handling.\nDetected risks: duplicate id.",
+      "validationResult": "FAIL",
+      "confidence": 50,
+      "automationRisk": "high",
+      "candidates": [
+        {
+          "strategy": "href",
+          "value": "[href=\"/web/index.php/time/viewTimeModule\"]",
+          "confidence": 97,
+          "stability": 68,
+          "uniqueness": 100,
+          "maintainability": 71,
+          "readability": 77,
+          "automationRisk": "low",
+          "selfHealingCandidate": false,
+          "isValid": true,
+          "isUnique": true,
+          "matchedCount": 1,
+          "failureReasons": []
+        },
+        {
+          "strategy": "visible-text",
+          "value": "Time",
+          "confidence": 50,
+          "stability": 60,
+          "uniqueness": 25,
+          "maintainability": 72,
+          "readability": 100,
+          "automationRisk": "high",
+          "selfHealingCandidate": false,
+          "isValid": true,
+          "isUnique": false,
+          "matchedCount": 4,
+          "failureReasons": [
+            "duplicate id"
+          ]
+        },
+        {
+          "strategy": "xpath",
+          "value": "/html[1]/body[1]/div[1]/div[1]/div[1]/aside[1]/nav[1]/div[2]/ul[1]/li[4]/a[1]",
+          "confidence": 75,
+          "stability": 40,
+          "uniqueness": 100,
+          "maintainability": 38,
+          "readability": 33,
+          "automationRisk": "high",
+          "selfHealingCandidate": false,
+          "isValid": true,
+          "isUnique": true,
+          "matchedCount": 1,
+          "failureReasons": [
+            "generated xpath"
+          ]
+        }
+      ],
+      "fallbackLocators": [
+        {
+          "strategy": "href",
+          "value": "[href=\"/web/index.php/time/viewTimeModule\"]",
+          "isValid": true,
+          "isUnique": true,
+          "matchedCount": 1
+        },
+        {
+          "strategy": "xpath",
+          "value": "/html[1]/body[1]/div[1]/div[1]/div[1]/aside[1]/nav[1]/div[2]/ul[1]/li[4]/a[1]",
+          "isValid": true,
+          "isUnique": true,
+          "matchedCount": 1
+        }
+      ]
+    },
+    {
+      "name": "Recruitment",
+      "type": "links",
+      "bestLocator": "Recruitment",
+      "bestStrategy": "visible-text",
+      "bestUniqueExactlyOne": true,
+      "fallbackCount": 2,
+      "allFallbacksValidUnique": true,
+      "reasonSelected": "Best Locator\nStrategy: visible-text\nValue: Recruitment\nConfidence: 96\n\nReason:\nUnique across page.\nPotentially volatile attribute usage.\nMay require framework-specific handling.\nNo dynamic values detected.",
+      "validationResult": "PASS",
+      "confidence": 96,
+      "automationRisk": "medium",
+      "candidates": [
+        {
+          "strategy": "href",
+          "value": "[href=\"/web/index.php/recruitment/viewRecruitmentModule\"]",
+          "confidence": 91,
+          "stability": 68,
+          "uniqueness": 100,
+          "maintainability": 67,
+          "readability": 63,
+          "automationRisk": "medium",
+          "selfHealingCandidate": false,
+          "isValid": true,
+          "isUnique": true,
+          "matchedCount": 1,
+          "failureReasons": [
+            "hashed value detected"
+          ]
+        },
+        {
+          "strategy": "visible-text",
+          "value": "Recruitment",
+          "confidence": 96,
+          "stability": 60,
+          "uniqueness": 100,
+          "maintainability": 72,
+          "readability": 100,
+          "automationRisk": "medium",
+          "selfHealingCandidate": false,
+          "isValid": true,
+          "isUnique": true,
+          "matchedCount": 1,
+          "failureReasons": []
+        },
+        {
+          "strategy": "xpath",
+          "value": "/html[1]/body[1]/div[1]/div[1]/div[1]/aside[1]/nav[1]/div[2]/ul[1]/li[5]/a[1]",
+          "confidence": 75,
+          "stability": 40,
+          "uniqueness": 100,
+          "maintainability": 38,
+          "readability": 33,
+          "automationRisk": "high",
+          "selfHealingCandidate": false,
+          "isValid": true,
+          "isUnique": true,
+          "matchedCount": 1,
+          "failureReasons": [
+            "generated xpath"
+          ]
+        }
+      ],
+      "fallbackLocators": [
+        {
+          "strategy": "href",
+          "value": "[href=\"/web/index.php/recruitment/viewRecruitmentModule\"]",
+          "isValid": true,
+          "isUnique": true,
+          "matchedCount": 1
+        },
+        {
+          "strategy": "xpath",
+          "value": "/html[1]/body[1]/div[1]/div[1]/div[1]/aside[1]/nav[1]/div[2]/ul[1]/li[5]/a[1]",
+          "isValid": true,
+          "isUnique": true,
+          "matchedCount": 1
+        }
+      ]
+    },
+    {
+      "name": "My Info",
+      "type": "links",
+      "bestLocator": "My Info",
+      "bestStrategy": "visible-text",
+      "bestUniqueExactlyOne": true,
+      "fallbackCount": 2,
+      "allFallbacksValidUnique": true,
+      "reasonSelected": "Best Locator\nStrategy: visible-text\nValue: My Info\nConfidence: 96\n\nReason:\nUnique across page.\nPotentially volatile attribute usage.\nMay require framework-specific handling.\nNo dynamic values detected.",
+      "validationResult": "PASS",
+      "confidence": 96,
+      "automationRisk": "medium",
+      "candidates": [
+        {
+          "strategy": "href",
+          "value": "[href=\"/web/index.php/pim/viewMyDetails\"]",
+          "confidence": 97,
+          "stability": 68,
+          "uniqueness": 100,
+          "maintainability": 71,
+          "readability": 79,
+          "automationRisk": "low",
+          "selfHealingCandidate": false,
+          "isValid": true,
+          "isUnique": true,
+          "matchedCount": 1,
+          "failureReasons": []
+        },
+        {
+          "strategy": "visible-text",
+          "value": "My Info",
+          "confidence": 96,
+          "stability": 60,
+          "uniqueness": 100,
+          "maintainability": 72,
+          "readability": 100,
+          "automationRisk": "medium",
+          "selfHealingCandidate": false,
+          "isValid": true,
+          "isUnique": true,
+          "matchedCount": 1,
+          "failureReasons": []
+        },
+        {
+          "strategy": "xpath",
+          "value": "/html[1]/body[1]/div[1]/div[1]/div[1]/aside[1]/nav[1]/div[2]/ul[1]/li[6]/a[1]",
+          "confidence": 75,
+          "stability": 40,
+          "uniqueness": 100,
+          "maintainability": 38,
+          "readability": 33,
+          "automationRisk": "high",
+          "selfHealingCandidate": false,
+          "isValid": true,
+          "isUnique": true,
+          "matchedCount": 1,
+          "failureReasons": [
+            "generated xpath"
+          ]
+        }
+      ],
+      "fallbackLocators": [
+        {
+          "strategy": "href",
+          "value": "[href=\"/web/index.php/pim/viewMyDetails\"]",
+          "isValid": true,
+          "isUnique": true,
+          "matchedCount": 1
+        },
+        {
+          "strategy": "xpath",
+          "value": "/html[1]/body[1]/div[1]/div[1]/div[1]/aside[1]/nav[1]/div[2]/ul[1]/li[6]/a[1]",
+          "isValid": true,
+          "isUnique": true,
+          "matchedCount": 1
+        }
+      ]
+    },
+    {
+      "name": "Performance",
+      "type": "links",
+      "bestLocator": "Performance",
+      "bestStrategy": "visible-text",
+      "bestUniqueExactlyOne": true,
+      "fallbackCount": 2,
+      "allFallbacksValidUnique": true,
+      "reasonSelected": "Best Locator\nStrategy: visible-text\nValue: Performance\nConfidence: 96\n\nReason:\nUnique across page.\nPotentially volatile attribute usage.\nMay require framework-specific handling.\nNo dynamic values detected.",
+      "validationResult": "PASS",
+      "confidence": 96,
+      "automationRisk": "medium",
+      "candidates": [
+        {
+          "strategy": "href",
+          "value": "[href=\"/web/index.php/performance/viewPerformanceModule\"]",
+          "confidence": 91,
+          "stability": 68,
+          "uniqueness": 100,
+          "maintainability": 67,
+          "readability": 63,
+          "automationRisk": "medium",
+          "selfHealingCandidate": false,
+          "isValid": true,
+          "isUnique": true,
+          "matchedCount": 1,
+          "failureReasons": [
+            "hashed value detected"
+          ]
+        },
+        {
+          "strategy": "visible-text",
+          "value": "Performance",
+          "confidence": 96,
+          "stability": 60,
+          "uniqueness": 100,
+          "maintainability": 72,
+          "readability": 100,
+          "automationRisk": "medium",
+          "selfHealingCandidate": false,
+          "isValid": true,
+          "isUnique": true,
+          "matchedCount": 1,
+          "failureReasons": []
+        },
+        {
+          "strategy": "xpath",
+          "value": "/html[1]/body[1]/div[1]/div[1]/div[1]/aside[1]/nav[1]/div[2]/ul[1]/li[7]/a[1]",
+          "confidence": 75,
+          "stability": 40,
+          "uniqueness": 100,
+          "maintainability": 38,
+          "readability": 33,
+          "automationRisk": "high",
+          "selfHealingCandidate": false,
+          "isValid": true,
+          "isUnique": true,
+          "matchedCount": 1,
+          "failureReasons": [
+            "generated xpath"
+          ]
+        }
+      ],
+      "fallbackLocators": [
+        {
+          "strategy": "href",
+          "value": "[href=\"/web/index.php/performance/viewPerformanceModule\"]",
+          "isValid": true,
+          "isUnique": true,
+          "matchedCount": 1
+        },
+        {
+          "strategy": "xpath",
+          "value": "/html[1]/body[1]/div[1]/div[1]/div[1]/aside[1]/nav[1]/div[2]/ul[1]/li[7]/a[1]",
+          "isValid": true,
+          "isUnique": true,
+          "matchedCount": 1
+        }
+      ]
+    },
+    {
+      "name": "Dashboard",
+      "type": "links",
+      "bestLocator": "Dashboard",
+      "bestStrategy": "visible-text",
+      "bestUniqueExactlyOne": false,
+      "fallbackCount": 2,
+      "allFallbacksValidUnique": true,
+      "reasonSelected": "Best Locator\nStrategy: visible-text\nValue: Dashboard\nConfidence: 60\n\nReason:\nMay match multiple elements.\nPotentially volatile attribute usage.\nMay require framework-specific handling.\nDetected risks: duplicate id.",
+      "validationResult": "FAIL",
+      "confidence": 60,
+      "automationRisk": "high",
+      "candidates": [
+        {
+          "strategy": "href",
+          "value": "[href=\"/web/index.php/dashboard/index\"]",
+          "confidence": 97,
+          "stability": 68,
+          "uniqueness": 100,
+          "maintainability": 72,
+          "readability": 81,
+          "automationRisk": "low",
+          "selfHealingCandidate": false,
+          "isValid": true,
+          "isUnique": true,
+          "matchedCount": 1,
+          "failureReasons": []
+        },
+        {
+          "strategy": "visible-text",
+          "value": "Dashboard",
+          "confidence": 60,
+          "stability": 60,
+          "uniqueness": 50,
+          "maintainability": 72,
+          "readability": 100,
+          "automationRisk": "high",
+          "selfHealingCandidate": false,
+          "isValid": true,
+          "isUnique": false,
+          "matchedCount": 2,
+          "failureReasons": [
+            "duplicate id"
+          ]
+        },
+        {
+          "strategy": "xpath",
+          "value": "/html[1]/body[1]/div[1]/div[1]/div[1]/aside[1]/nav[1]/div[2]/ul[1]/li[8]/a[1]",
+          "confidence": 75,
+          "stability": 40,
+          "uniqueness": 100,
+          "maintainability": 38,
+          "readability": 33,
+          "automationRisk": "high",
+          "selfHealingCandidate": false,
+          "isValid": true,
+          "isUnique": true,
+          "matchedCount": 1,
+          "failureReasons": [
+            "generated xpath"
+          ]
+        }
+      ],
+      "fallbackLocators": [
+        {
+          "strategy": "href",
+          "value": "[href=\"/web/index.php/dashboard/index\"]",
+          "isValid": true,
+          "isUnique": true,
+          "matchedCount": 1
+        },
+        {
+          "strategy": "xpath",
+          "value": "/html[1]/body[1]/div[1]/div[1]/div[1]/aside[1]/nav[1]/div[2]/ul[1]/li[8]/a[1]",
+          "isValid": true,
+          "isUnique": true,
+          "matchedCount": 1
+        }
+      ]
+    },
+    {
+      "name": "Maintenance",
+      "type": "links",
+      "bestLocator": "Maintenance",
+      "bestStrategy": "visible-text",
+      "bestUniqueExactlyOne": true,
+      "fallbackCount": 2,
+      "allFallbacksValidUnique": true,
+      "reasonSelected": "Best Locator\nStrategy: visible-text\nValue: Maintenance\nConfidence: 96\n\nReason:\nUnique across page.\nPotentially volatile attribute usage.\nMay require framework-specific handling.\nNo dynamic values detected.",
+      "validationResult": "PASS",
+      "confidence": 96,
+      "automationRisk": "medium",
+      "candidates": [
+        {
+          "strategy": "href",
+          "value": "[href=\"/web/index.php/maintenance/viewMaintenanceModule\"]",
+          "confidence": 91,
+          "stability": 68,
+          "uniqueness": 100,
+          "maintainability": 67,
+          "readability": 63,
+          "automationRisk": "medium",
+          "selfHealingCandidate": false,
+          "isValid": true,
+          "isUnique": true,
+          "matchedCount": 1,
+          "failureReasons": [
+            "hashed value detected"
+          ]
+        },
+        {
+          "strategy": "visible-text",
+          "value": "Maintenance",
+          "confidence": 96,
+          "stability": 60,
+          "uniqueness": 100,
+          "maintainability": 72,
+          "readability": 100,
+          "automationRisk": "medium",
+          "selfHealingCandidate": false,
+          "isValid": true,
+          "isUnique": true,
+          "matchedCount": 1,
+          "failureReasons": []
+        },
+        {
+          "strategy": "xpath",
+          "value": "/html[1]/body[1]/div[1]/div[1]/div[1]/aside[1]/nav[1]/div[2]/ul[1]/li[9]/a[1]",
+          "confidence": 75,
+          "stability": 40,
+          "uniqueness": 100,
+          "maintainability": 38,
+          "readability": 33,
+          "automationRisk": "high",
+          "selfHealingCandidate": false,
+          "isValid": true,
+          "isUnique": true,
+          "matchedCount": 1,
+          "failureReasons": [
+            "generated xpath"
+          ]
+        }
+      ],
+      "fallbackLocators": [
+        {
+          "strategy": "href",
+          "value": "[href=\"/web/index.php/maintenance/viewMaintenanceModule\"]",
+          "isValid": true,
+          "isUnique": true,
+          "matchedCount": 1
+        },
+        {
+          "strategy": "xpath",
+          "value": "/html[1]/body[1]/div[1]/div[1]/div[1]/aside[1]/nav[1]/div[2]/ul[1]/li[9]/a[1]",
+          "isValid": true,
+          "isUnique": true,
+          "matchedCount": 1
+        }
+      ]
+    },
+    {
+      "name": "Claim",
+      "type": "links",
+      "bestLocator": "Claim",
+      "bestStrategy": "visible-text",
+      "bestUniqueExactlyOne": true,
+      "fallbackCount": 2,
+      "allFallbacksValidUnique": true,
+      "reasonSelected": "Best Locator\nStrategy: visible-text\nValue: Claim\nConfidence: 96\n\nReason:\nUnique across page.\nPotentially volatile attribute usage.\nMay require framework-specific handling.\nNo dynamic values detected.",
+      "validationResult": "PASS",
+      "confidence": 96,
+      "automationRisk": "medium",
+      "candidates": [
+        {
+          "strategy": "href",
+          "value": "[href=\"/web/index.php/claim/viewClaimModule\"]",
+          "confidence": 92,
+          "stability": 68,
+          "uniqueness": 100,
+          "maintainability": 70,
+          "readability": 75,
+          "automationRisk": "medium",
+          "selfHealingCandidate": false,
+          "isValid": true,
+          "isUnique": true,
+          "matchedCount": 1,
+          "failureReasons": [
+            "hashed value detected"
+          ]
+        },
+        {
+          "strategy": "visible-text",
+          "value": "Claim",
+          "confidence": 96,
+          "stability": 60,
+          "uniqueness": 100,
+          "maintainability": 72,
+          "readability": 100,
+          "automationRisk": "medium",
+          "selfHealingCandidate": false,
+          "isValid": true,
+          "isUnique": true,
+          "matchedCount": 1,
+          "failureReasons": []
+        },
+        {
+          "strategy": "xpath",
+          "value": "/html[1]/body[1]/div[1]/div[1]/div[1]/aside[1]/nav[1]/div[2]/ul[1]/li[10]/a[1]",
+          "confidence": 71,
+          "stability": 40,
+          "uniqueness": 100,
+          "maintainability": 38,
+          "readability": 33,
+          "automationRisk": "high",
+          "selfHealingCandidate": false,
+          "isValid": true,
+          "isUnique": true,
+          "matchedCount": 1,
+          "failureReasons": [
+            "generated xpath",
+            "volatile text"
+          ]
+        }
+      ],
+      "fallbackLocators": [
+        {
+          "strategy": "href",
+          "value": "[href=\"/web/index.php/claim/viewClaimModule\"]",
+          "isValid": true,
+          "isUnique": true,
+          "matchedCount": 1
+        },
+        {
+          "strategy": "xpath",
+          "value": "/html[1]/body[1]/div[1]/div[1]/div[1]/aside[1]/nav[1]/div[2]/ul[1]/li[10]/a[1]",
+          "isValid": true,
+          "isUnique": true,
+          "matchedCount": 1
+        }
+      ]
+    },
+    {
+      "name": "Buzz",
+      "type": "links",
+      "bestLocator": "Buzz",
+      "bestStrategy": "visible-text",
+      "bestUniqueExactlyOne": false,
+      "fallbackCount": 2,
+      "allFallbacksValidUnique": true,
+      "reasonSelected": "Best Locator\nStrategy: visible-text\nValue: Buzz\nConfidence: 60\n\nReason:\nMay match multiple elements.\nPotentially volatile attribute usage.\nMay require framework-specific handling.\nDetected risks: duplicate id.",
+      "validationResult": "FAIL",
+      "confidence": 60,
+      "automationRisk": "high",
+      "candidates": [
+        {
+          "strategy": "href",
+          "value": "[href=\"/web/index.php/buzz/viewBuzz\"]",
+          "confidence": 98,
+          "stability": 68,
+          "uniqueness": 100,
+          "maintainability": 73,
+          "readability": 83,
+          "automationRisk": "low",
+          "selfHealingCandidate": false,
+          "isValid": true,
+          "isUnique": true,
+          "matchedCount": 1,
+          "failureReasons": []
+        },
+        {
+          "strategy": "visible-text",
+          "value": "Buzz",
+          "confidence": 60,
+          "stability": 60,
+          "uniqueness": 50,
+          "maintainability": 72,
+          "readability": 100,
+          "automationRisk": "high",
+          "selfHealingCandidate": false,
+          "isValid": true,
+          "isUnique": false,
+          "matchedCount": 2,
+          "failureReasons": [
+            "duplicate id"
+          ]
+        },
+        {
+          "strategy": "xpath",
+          "value": "/html[1]/body[1]/div[1]/div[1]/div[1]/aside[1]/nav[1]/div[2]/ul[1]/li[11]/a[1]",
+          "confidence": 71,
+          "stability": 40,
+          "uniqueness": 100,
+          "maintainability": 38,
+          "readability": 33,
+          "automationRisk": "high",
+          "selfHealingCandidate": false,
+          "isValid": true,
+          "isUnique": true,
+          "matchedCount": 1,
+          "failureReasons": [
+            "generated xpath",
+            "volatile text"
+          ]
+        }
+      ],
+      "fallbackLocators": [
+        {
+          "strategy": "href",
+          "value": "[href=\"/web/index.php/buzz/viewBuzz\"]",
+          "isValid": true,
+          "isUnique": true,
+          "matchedCount": 1
+        },
+        {
+          "strategy": "xpath",
+          "value": "/html[1]/body[1]/div[1]/div[1]/div[1]/aside[1]/nav[1]/div[2]/ul[1]/li[11]/a[1]",
+          "isValid": true,
+          "isUnique": true,
+          "matchedCount": 1
+        }
+      ]
+    },
+    {
+      "name": "Upgrade",
+      "type": "links",
+      "bestLocator": "Upgrade",
+      "bestStrategy": "visible-text",
+      "bestUniqueExactlyOne": true,
+      "fallbackCount": 2,
+      "allFallbacksValidUnique": true,
+      "reasonSelected": "Best Locator\nStrategy: visible-text\nValue: Upgrade\nConfidence: 96\n\nReason:\nUnique across page.\nPotentially volatile attribute usage.\nMay require framework-specific handling.\nNo dynamic values detected.",
+      "validationResult": "PASS",
+      "confidence": 96,
+      "automationRisk": "medium",
+      "candidates": [
+        {
+          "strategy": "href",
+          "value": "[href=\"https://orangehrm.com/open-source/upgrade-to-advanced\"]",
+          "confidence": 90,
+          "stability": 68,
+          "uniqueness": 100,
+          "maintainability": 65,
+          "readability": 57,
+          "automationRisk": "medium",
+          "selfHealingCandidate": false,
+          "isValid": true,
+          "isUnique": true,
+          "matchedCount": 1,
+          "failureReasons": [
+            "hashed value detected"
+          ]
+        },
+        {
+          "strategy": "visible-text",
+          "value": "Upgrade",
+          "confidence": 96,
+          "stability": 60,
+          "uniqueness": 100,
+          "maintainability": 72,
+          "readability": 100,
+          "automationRisk": "medium",
+          "selfHealingCandidate": false,
+          "isValid": true,
+          "isUnique": true,
+          "matchedCount": 1,
+          "failureReasons": []
+        },
+        {
+          "strategy": "xpath",
+          "value": "/html[1]/body[1]/div[1]/div[1]/div[1]/header[1]/div[1]/div[2]/a[1]",
+          "confidence": 75,
+          "stability": 40,
+          "uniqueness": 100,
+          "maintainability": 39,
+          "readability": 38,
+          "automationRisk": "high",
+          "selfHealingCandidate": false,
+          "isValid": true,
+          "isUnique": true,
+          "matchedCount": 1,
+          "failureReasons": [
+            "generated xpath"
+          ]
+        }
+      ],
+      "fallbackLocators": [
+        {
+          "strategy": "href",
+          "value": "[href=\"https://orangehrm.com/open-source/upgrade-to-advanced\"]",
+          "isValid": true,
+          "isUnique": true,
+          "matchedCount": 1
+        },
+        {
+          "strategy": "xpath",
+          "value": "/html[1]/body[1]/div[1]/div[1]/div[1]/header[1]/div[1]/div[2]/a[1]",
+          "isValid": true,
+          "isUnique": true,
+          "matchedCount": 1
+        }
+      ]
+    },
+    {
+      "name": "OrangeHRM, Inc",
+      "type": "links",
+      "bestLocator": "OrangeHRM, Inc",
+      "bestStrategy": "visible-text",
+      "bestUniqueExactlyOne": true,
+      "fallbackCount": 2,
+      "allFallbacksValidUnique": true,
+      "reasonSelected": "Best Locator\nStrategy: visible-text\nValue: OrangeHRM, Inc\nConfidence: 96\n\nReason:\nUnique across page.\nPotentially volatile attribute usage.\nMay require framework-specific handling.\nNo dynamic values detected.",
+      "validationResult": "PASS",
+      "confidence": 96,
+      "automationRisk": "medium",
+      "candidates": [
+        {
+          "strategy": "href",
+          "value": "[href=\"http://www.orangehrm.com\"]",
+          "confidence": 98,
+          "stability": 68,
+          "uniqueness": 100,
+          "maintainability": 73,
+          "readability": 86,
+          "automationRisk": "low",
+          "selfHealingCandidate": false,
+          "isValid": true,
+          "isUnique": true,
+          "matchedCount": 1,
+          "failureReasons": []
+        },
+        {
+          "strategy": "visible-text",
+          "value": "OrangeHRM, Inc",
+          "confidence": 96,
+          "stability": 60,
+          "uniqueness": 100,
+          "maintainability": 72,
+          "readability": 100,
+          "automationRisk": "medium",
+          "selfHealingCandidate": false,
+          "isValid": true,
+          "isUnique": true,
+          "matchedCount": 1,
+          "failureReasons": []
+        },
+        {
+          "strategy": "xpath",
+          "value": "/html[1]/body[1]/div[1]/div[1]/div[2]/div[3]/p[2]/a[1]",
+          "confidence": 77,
+          "stability": 40,
+          "uniqueness": 100,
+          "maintainability": 44,
+          "readability": 52,
+          "automationRisk": "high",
+          "selfHealingCandidate": false,
+          "isValid": true,
+          "isUnique": true,
+          "matchedCount": 1,
+          "failureReasons": [
+            "generated xpath"
+          ]
+        }
+      ],
+      "fallbackLocators": [
+        {
+          "strategy": "href",
+          "value": "[href=\"http://www.orangehrm.com\"]",
+          "isValid": true,
+          "isUnique": true,
+          "matchedCount": 1
+        },
+        {
+          "strategy": "xpath",
+          "value": "/html[1]/body[1]/div[1]/div[1]/div[2]/div[3]/p[2]/a[1]",
+          "isValid": true,
+          "isUnique": true,
+          "matchedCount": 1
+        }
+      ]
+    },
+    {
+      "name": "Search",
+      "type": "inputs",
+      "bestLocator": "Search",
+      "bestStrategy": "placeholder",
+      "bestUniqueExactlyOne": true,
+      "fallbackCount": 2,
+      "allFallbacksValidUnique": true,
+      "reasonSelected": "Best Locator\nStrategy: placeholder\nValue: Search\nConfidence: 100\n\nReason:\nUnique across page.\nPotentially volatile attribute usage.\nFramework independent.\nNo dynamic values detected.",
+      "validationResult": "PASS",
+      "confidence": 100,
+      "automationRisk": "low",
+      "candidates": [
+        {
+          "strategy": "placeholder",
+          "value": "Search",
+          "confidence": 100,
+          "stability": 78,
+          "uniqueness": 100,
+          "maintainability": 85,
+          "readability": 100,
+          "automationRisk": "low",
+          "selfHealingCandidate": true,
+          "isValid": true,
+          "isUnique": true,
+          "matchedCount": 1,
+          "failureReasons": []
+        },
+        {
+          "strategy": "css",
+          "value": "input:nth-of-type(1)",
+          "confidence": 87,
+          "stability": 48,
+          "uniqueness": 100,
+          "maintainability": 63,
+          "readability": 97,
+          "automationRisk": "medium",
+          "selfHealingCandidate": false,
+          "isValid": true,
+          "isUnique": true,
+          "matchedCount": 1,
+          "failureReasons": [
+            "nth-child selector"
+          ]
+        },
+        {
+          "strategy": "xpath",
+          "value": "/html[1]/body[1]/div[1]/div[1]/div[1]/aside[1]/nav[1]/div[2]/div[1]/div[1]/input[1]",
+          "confidence": 75,
+          "stability": 40,
+          "uniqueness": 100,
+          "maintainability": 38,
+          "readability": 33,
+          "automationRisk": "high",
+          "selfHealingCandidate": false,
+          "isValid": true,
+          "isUnique": true,
+          "matchedCount": 1,
+          "failureReasons": [
+            "generated xpath"
+          ]
+        }
+      ],
+      "fallbackLocators": [
+        {
+          "strategy": "css",
+          "value": "input:nth-of-type(1)",
+          "isValid": true,
+          "isUnique": true,
+          "matchedCount": 1
+        },
+        {
+          "strategy": "xpath",
+          "value": "/html[1]/body[1]/div[1]/div[1]/div[1]/aside[1]/nav[1]/div[2]/div[1]/div[1]/input[1]",
+          "isValid": true,
+          "isUnique": true,
+          "matchedCount": 1
+        }
+      ]
+    }
+  ],
+  "findings": [
+    {
+      "severity": "warning",
+      "type": "multi-match",
+      "component": "Button 1",
+      "strategy": "css",
+      "value": "button:nth-of-type(1)",
+      "matchedCount": 3
+    },
+    {
+      "severity": "warning",
+      "type": "unstable",
+      "component": "Button 1",
+      "strategy": "css",
+      "value": "button:nth-of-type(1)",
+      "stability": 48
+    },
+    {
+      "severity": "warning",
+      "type": "not-recommended-best",
+      "component": "Button 1",
+      "strategy": "css",
+      "value": "button:nth-of-type(1)",
+      "reasons": [
+        "duplicate id",
+        "nth-child selector"
+      ]
+    },
+    {
+      "severity": "warning",
+      "type": "unstable",
+      "component": "Button 1",
+      "strategy": "xpath",
+      "value": "/html[1]/body[1]/div[1]/div[1]/div[1]/aside[1]/nav[1]/div[2]/div[1]/div[1]/button[1]",
+      "stability": 40
+    },
+    {
+      "severity": "warning",
+      "type": "unstable",
+      "component": "Upgrade",
+      "strategy": "visible-text",
+      "value": "Upgrade",
+      "stability": 60
+    },
+    {
+      "severity": "warning",
+      "type": "unstable",
+      "component": "Upgrade",
+      "strategy": "xpath",
+      "value": "/html[1]/body[1]/div[1]/div[1]/div[1]/header[1]/div[1]/div[2]/a[1]/button[1]",
+      "stability": 40
+    },
+    {
+      "severity": "warning",
+      "type": "unstable",
+      "component": "Button 3",
+      "strategy": "title",
+      "value": "[title=\"Help\"]",
+      "stability": 66
+    },
+    {
+      "severity": "warning",
+      "type": "unstable",
+      "component": "Button 3",
+      "strategy": "xpath",
+      "value": "/html[1]/body[1]/div[1]/div[1]/div[1]/header[1]/div[2]/nav[1]/ul[1]/div[1]/button[1]",
+      "stability": 40
+    },
+    {
+      "severity": "warning",
+      "type": "not-recommended-best",
+      "component": "Button 3",
+      "strategy": "xpath",
+      "value": "/html[1]/body[1]/div[1]/div[1]/div[1]/header[1]/div[2]/nav[1]/ul[1]/div[1]/button[1]",
+      "reasons": [
+        "generated xpath"
+      ]
+    },
+    {
+      "severity": "warning",
+      "type": "unstable",
+      "component": "Link 1",
+      "strategy": "href",
+      "value": "[href=\"https://www.orangehrm.com/\"]",
+      "stability": 68
+    },
+    {
+      "severity": "warning",
+      "type": "multi-match",
+      "component": "Link 1",
+      "strategy": "css",
+      "value": "a:nth-of-type(1)",
+      "matchedCount": 14
+    },
+    {
+      "severity": "warning",
+      "type": "unstable",
+      "component": "Link 1",
+      "strategy": "css",
+      "value": "a:nth-of-type(1)",
+      "stability": 48
+    },
+    {
+      "severity": "warning",
+      "type": "not-recommended-best",
+      "component": "Link 1",
+      "strategy": "css",
+      "value": "a:nth-of-type(1)",
+      "reasons": [
+        "duplicate id",
+        "nth-child selector"
+      ]
+    },
+    {
+      "severity": "warning",
+      "type": "unstable",
+      "component": "Link 1",
+      "strategy": "xpath",
+      "value": "/html[1]/body[1]/div[1]/div[1]/div[1]/aside[1]/nav[1]/div[1]/a[1]",
+      "stability": 40
+    },
+    {
+      "severity": "warning",
+      "type": "unstable",
+      "component": "Admin",
+      "strategy": "href",
+      "value": "[href=\"/web/index.php/admin/viewAdminModule\"]",
+      "stability": 68
+    },
+    {
+      "severity": "warning",
+      "type": "dynamic-attribute",
+      "component": "Admin",
+      "strategy": "href",
+      "value": "[href=\"/web/index.php/admin/viewAdminModule\"]",
+      "reasons": [
+        "hashed value detected"
+      ]
+    },
+    {
+      "severity": "warning",
+      "type": "unstable",
+      "component": "Admin",
+      "strategy": "visible-text",
+      "value": "Admin",
+      "stability": 60
+    },
+    {
+      "severity": "warning",
+      "type": "unstable",
+      "component": "Admin",
+      "strategy": "xpath",
+      "value": "/html[1]/body[1]/div[1]/div[1]/div[1]/aside[1]/nav[1]/div[2]/ul[1]/li[1]/a[1]",
+      "stability": 40
+    },
+    {
+      "severity": "warning",
+      "type": "unstable",
+      "component": "PIM",
+      "strategy": "href",
+      "value": "[href=\"/web/index.php/pim/viewPimModule\"]",
+      "stability": 68
+    },
+    {
+      "severity": "warning",
+      "type": "unstable",
+      "component": "PIM",
+      "strategy": "visible-text",
+      "value": "PIM",
+      "stability": 60
+    },
+    {
+      "severity": "warning",
+      "type": "unstable",
+      "component": "PIM",
+      "strategy": "xpath",
+      "value": "/html[1]/body[1]/div[1]/div[1]/div[1]/aside[1]/nav[1]/div[2]/ul[1]/li[2]/a[1]",
+      "stability": 40
+    },
+    {
+      "severity": "warning",
+      "type": "unstable",
+      "component": "Leave",
+      "strategy": "href",
+      "value": "[href=\"/web/index.php/leave/viewLeaveModule\"]",
+      "stability": 68
+    },
+    {
+      "severity": "warning",
+      "type": "dynamic-attribute",
+      "component": "Leave",
+      "strategy": "href",
+      "value": "[href=\"/web/index.php/leave/viewLeaveModule\"]",
+      "reasons": [
+        "hashed value detected"
+      ]
+    },
+    {
+      "severity": "warning",
+      "type": "multi-match",
+      "component": "Leave",
+      "strategy": "visible-text",
+      "value": "Leave",
+      "matchedCount": 7
+    },
+    {
+      "severity": "warning",
+      "type": "unstable",
+      "component": "Leave",
+      "strategy": "visible-text",
+      "value": "Leave",
+      "stability": 60
+    },
+    {
+      "severity": "warning",
+      "type": "not-recommended-best",
+      "component": "Leave",
+      "strategy": "visible-text",
+      "value": "Leave",
+      "reasons": [
+        "duplicate id"
+      ]
+    },
+    {
+      "severity": "warning",
+      "type": "unstable",
+      "component": "Leave",
+      "strategy": "xpath",
+      "value": "/html[1]/body[1]/div[1]/div[1]/div[1]/aside[1]/nav[1]/div[2]/ul[1]/li[3]/a[1]",
+      "stability": 40
+    },
+    {
+      "severity": "warning",
+      "type": "unstable",
+      "component": "Time",
+      "strategy": "href",
+      "value": "[href=\"/web/index.php/time/viewTimeModule\"]",
+      "stability": 68
+    },
+    {
+      "severity": "warning",
+      "type": "multi-match",
+      "component": "Time",
+      "strategy": "visible-text",
+      "value": "Time",
+      "matchedCount": 4
+    },
+    {
+      "severity": "warning",
+      "type": "unstable",
+      "component": "Time",
+      "strategy": "visible-text",
+      "value": "Time",
+      "stability": 60
+    },
+    {
+      "severity": "warning",
+      "type": "not-recommended-best",
+      "component": "Time",
+      "strategy": "visible-text",
+      "value": "Time",
+      "reasons": [
+        "duplicate id"
+      ]
+    },
+    {
+      "severity": "warning",
+      "type": "unstable",
+      "component": "Time",
+      "strategy": "xpath",
+      "value": "/html[1]/body[1]/div[1]/div[1]/div[1]/aside[1]/nav[1]/div[2]/ul[1]/li[4]/a[1]",
+      "stability": 40
+    },
+    {
+      "severity": "warning",
+      "type": "unstable",
+      "component": "Recruitment",
+      "strategy": "href",
+      "value": "[href=\"/web/index.php/recruitment/viewRecruitmentModule\"]",
+      "stability": 68
+    },
+    {
+      "severity": "warning",
+      "type": "dynamic-attribute",
+      "component": "Recruitment",
+      "strategy": "href",
+      "value": "[href=\"/web/index.php/recruitment/viewRecruitmentModule\"]",
+      "reasons": [
+        "hashed value detected"
+      ]
+    },
+    {
+      "severity": "warning",
+      "type": "unstable",
+      "component": "Recruitment",
+      "strategy": "visible-text",
+      "value": "Recruitment",
+      "stability": 60
+    },
+    {
+      "severity": "warning",
+      "type": "unstable",
+      "component": "Recruitment",
+      "strategy": "xpath",
+      "value": "/html[1]/body[1]/div[1]/div[1]/div[1]/aside[1]/nav[1]/div[2]/ul[1]/li[5]/a[1]",
+      "stability": 40
+    },
+    {
+      "severity": "warning",
+      "type": "unstable",
+      "component": "My Info",
+      "strategy": "href",
+      "value": "[href=\"/web/index.php/pim/viewMyDetails\"]",
+      "stability": 68
+    },
+    {
+      "severity": "warning",
+      "type": "unstable",
+      "component": "My Info",
+      "strategy": "visible-text",
+      "value": "My Info",
+      "stability": 60
+    },
+    {
+      "severity": "warning",
+      "type": "unstable",
+      "component": "My Info",
+      "strategy": "xpath",
+      "value": "/html[1]/body[1]/div[1]/div[1]/div[1]/aside[1]/nav[1]/div[2]/ul[1]/li[6]/a[1]",
+      "stability": 40
+    },
+    {
+      "severity": "warning",
+      "type": "unstable",
+      "component": "Performance",
+      "strategy": "href",
+      "value": "[href=\"/web/index.php/performance/viewPerformanceModule\"]",
+      "stability": 68
+    },
+    {
+      "severity": "warning",
+      "type": "dynamic-attribute",
+      "component": "Performance",
+      "strategy": "href",
+      "value": "[href=\"/web/index.php/performance/viewPerformanceModule\"]",
+      "reasons": [
+        "hashed value detected"
+      ]
+    },
+    {
+      "severity": "warning",
+      "type": "unstable",
+      "component": "Performance",
+      "strategy": "visible-text",
+      "value": "Performance",
+      "stability": 60
+    },
+    {
+      "severity": "warning",
+      "type": "unstable",
+      "component": "Performance",
+      "strategy": "xpath",
+      "value": "/html[1]/body[1]/div[1]/div[1]/div[1]/aside[1]/nav[1]/div[2]/ul[1]/li[7]/a[1]",
+      "stability": 40
+    },
+    {
+      "severity": "warning",
+      "type": "unstable",
+      "component": "Dashboard",
+      "strategy": "href",
+      "value": "[href=\"/web/index.php/dashboard/index\"]",
+      "stability": 68
+    },
+    {
+      "severity": "warning",
+      "type": "multi-match",
+      "component": "Dashboard",
+      "strategy": "visible-text",
+      "value": "Dashboard",
+      "matchedCount": 2
+    },
+    {
+      "severity": "warning",
+      "type": "unstable",
+      "component": "Dashboard",
+      "strategy": "visible-text",
+      "value": "Dashboard",
+      "stability": 60
+    },
+    {
+      "severity": "warning",
+      "type": "not-recommended-best",
+      "component": "Dashboard",
+      "strategy": "visible-text",
+      "value": "Dashboard",
+      "reasons": [
+        "duplicate id"
+      ]
+    },
+    {
+      "severity": "warning",
+      "type": "unstable",
+      "component": "Dashboard",
+      "strategy": "xpath",
+      "value": "/html[1]/body[1]/div[1]/div[1]/div[1]/aside[1]/nav[1]/div[2]/ul[1]/li[8]/a[1]",
+      "stability": 40
+    },
+    {
+      "severity": "warning",
+      "type": "unstable",
+      "component": "Maintenance",
+      "strategy": "href",
+      "value": "[href=\"/web/index.php/maintenance/viewMaintenanceModule\"]",
+      "stability": 68
+    },
+    {
+      "severity": "warning",
+      "type": "dynamic-attribute",
+      "component": "Maintenance",
+      "strategy": "href",
+      "value": "[href=\"/web/index.php/maintenance/viewMaintenanceModule\"]",
+      "reasons": [
+        "hashed value detected"
+      ]
+    },
+    {
+      "severity": "warning",
+      "type": "unstable",
+      "component": "Maintenance",
+      "strategy": "visible-text",
+      "value": "Maintenance",
+      "stability": 60
+    },
+    {
+      "severity": "warning",
+      "type": "unstable",
+      "component": "Maintenance",
+      "strategy": "xpath",
+      "value": "/html[1]/body[1]/div[1]/div[1]/div[1]/aside[1]/nav[1]/div[2]/ul[1]/li[9]/a[1]",
+      "stability": 40
+    },
+    {
+      "severity": "warning",
+      "type": "unstable",
+      "component": "Claim",
+      "strategy": "href",
+      "value": "[href=\"/web/index.php/claim/viewClaimModule\"]",
+      "stability": 68
+    },
+    {
+      "severity": "warning",
+      "type": "dynamic-attribute",
+      "component": "Claim",
+      "strategy": "href",
+      "value": "[href=\"/web/index.php/claim/viewClaimModule\"]",
+      "reasons": [
+        "hashed value detected"
+      ]
+    },
+    {
+      "severity": "warning",
+      "type": "unstable",
+      "component": "Claim",
+      "strategy": "visible-text",
+      "value": "Claim",
+      "stability": 60
+    },
+    {
+      "severity": "warning",
+      "type": "unstable",
+      "component": "Claim",
+      "strategy": "xpath",
+      "value": "/html[1]/body[1]/div[1]/div[1]/div[1]/aside[1]/nav[1]/div[2]/ul[1]/li[10]/a[1]",
+      "stability": 40
+    },
+    {
+      "severity": "warning",
+      "type": "dynamic-attribute",
+      "component": "Claim",
+      "strategy": "xpath",
+      "value": "/html[1]/body[1]/div[1]/div[1]/div[1]/aside[1]/nav[1]/div[2]/ul[1]/li[10]/a[1]",
+      "reasons": [
+        "volatile text"
+      ]
+    },
+    {
+      "severity": "warning",
+      "type": "unstable",
+      "component": "Buzz",
+      "strategy": "href",
+      "value": "[href=\"/web/index.php/buzz/viewBuzz\"]",
+      "stability": 68
+    },
+    {
+      "severity": "warning",
+      "type": "multi-match",
+      "component": "Buzz",
+      "strategy": "visible-text",
+      "value": "Buzz",
+      "matchedCount": 2
+    },
+    {
+      "severity": "warning",
+      "type": "unstable",
+      "component": "Buzz",
+      "strategy": "visible-text",
+      "value": "Buzz",
+      "stability": 60
+    },
+    {
+      "severity": "warning",
+      "type": "not-recommended-best",
+      "component": "Buzz",
+      "strategy": "visible-text",
+      "value": "Buzz",
+      "reasons": [
+        "duplicate id"
+      ]
+    },
+    {
+      "severity": "warning",
+      "type": "unstable",
+      "component": "Buzz",
+      "strategy": "xpath",
+      "value": "/html[1]/body[1]/div[1]/div[1]/div[1]/aside[1]/nav[1]/div[2]/ul[1]/li[11]/a[1]",
+      "stability": 40
+    },
+    {
+      "severity": "warning",
+      "type": "dynamic-attribute",
+      "component": "Buzz",
+      "strategy": "xpath",
+      "value": "/html[1]/body[1]/div[1]/div[1]/div[1]/aside[1]/nav[1]/div[2]/ul[1]/li[11]/a[1]",
+      "reasons": [
+        "volatile text"
+      ]
+    },
+    {
+      "severity": "warning",
+      "type": "unstable",
+      "component": "Upgrade",
+      "strategy": "href",
+      "value": "[href=\"https://orangehrm.com/open-source/upgrade-to-advanced\"]",
+      "stability": 68
+    },
+    {
+      "severity": "warning",
+      "type": "dynamic-attribute",
+      "component": "Upgrade",
+      "strategy": "href",
+      "value": "[href=\"https://orangehrm.com/open-source/upgrade-to-advanced\"]",
+      "reasons": [
+        "hashed value detected"
+      ]
+    },
+    {
+      "severity": "warning",
+      "type": "unstable",
+      "component": "Upgrade",
+      "strategy": "visible-text",
+      "value": "Upgrade",
+      "stability": 60
+    },
+    {
+      "severity": "warning",
+      "type": "unstable",
+      "component": "Upgrade",
+      "strategy": "xpath",
+      "value": "/html[1]/body[1]/div[1]/div[1]/div[1]/header[1]/div[1]/div[2]/a[1]",
+      "stability": 40
+    },
+    {
+      "severity": "warning",
+      "type": "unstable",
+      "component": "OrangeHRM, Inc",
+      "strategy": "href",
+      "value": "[href=\"http://www.orangehrm.com\"]",
+      "stability": 68
+    },
+    {
+      "severity": "warning",
+      "type": "unstable",
+      "component": "OrangeHRM, Inc",
+      "strategy": "visible-text",
+      "value": "OrangeHRM, Inc",
+      "stability": 60
+    },
+    {
+      "severity": "warning",
+      "type": "unstable",
+      "component": "OrangeHRM, Inc",
+      "strategy": "xpath",
+      "value": "/html[1]/body[1]/div[1]/div[1]/div[2]/div[3]/p[2]/a[1]",
+      "stability": 40
+    },
+    {
+      "severity": "warning",
+      "type": "unstable",
+      "component": "Search",
+      "strategy": "css",
+      "value": "input:nth-of-type(1)",
+      "stability": 48
+    },
+    {
+      "severity": "warning",
+      "type": "unstable",
+      "component": "Search",
+      "strategy": "xpath",
+      "value": "/html[1]/body[1]/div[1]/div[1]/div[1]/aside[1]/nav[1]/div[2]/div[1]/div[1]/input[1]",
+      "stability": 40
+    }
+  ],
+  "summary": {
+    "totalComponentsDiscovered": 18,
+    "totalValidLocators": 51,
+    "totalInvalidLocators": 0,
+    "totalSelfHealingCandidates": 1,
+    "averageConfidenceScore": 82.45,
+    "averageStabilityScore": 54.9,
+    "averageUniquenessScore": 91.75,
+    "averageAutomationRisk": 2.29
+  }
+}

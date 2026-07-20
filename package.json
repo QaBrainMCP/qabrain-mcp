@@ -44,7 +44,8 @@
     "verify:build": "node -e \"import('fs').accessSync('dist/index.js'); import('fs').accessSync('dist/cli/index.js'); console.log('Build verified');\"",
     "doctor": "node dist/cli/index.js doctor",
     "cli": "node dist/cli/index.js",
-    "version:show": "node dist/cli/index.js version"
+    "version:show": "node dist/cli/index.js version",
+    "feature:learn": "tsx src/test/run-feature-learning.ts"
   },
   "keywords": [
     "mcp",

@@ -1,0 +1,92 @@
+{
+  "2183c26c-c410-4912-be67-a09e2aff0a03": {
+    "pageId": "2183c26c-c410-4912-be67-a09e2aff0a03",
+    "pageName": "OrangeHRM",
+    "urlPattern": "https://opensource-demo.orangehrmlive.com/web/index.php/auth/login",
+    "title": "OrangeHRM",
+    "discoveredDate": "Mon Jul 20 2026 15:51:57 GMT+0530 (India Standard Time)",
+    "lastUpdated": "2026-07-20T10:23:57.756Z",
+    "components": [],
+    "navigationLinks": []
+  },
+  "81d5a255-8a3d-4ab3-a3c5-d99949c8fe9c": {
+    "pageId": "81d5a255-8a3d-4ab3-a3c5-d99949c8fe9c",
+    "pageName": "OrangeHRM",
+    "urlPattern": "https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index",
+    "title": "OrangeHRM",
+    "discoveredDate": "Mon Jul 20 2026 15:52:12 GMT+0530 (India Standard Time)",
+    "lastUpdated": "2026-07-20T10:24:27.133Z",
+    "components": [],
+    "navigationLinks": []
+  },
+  "ac8ef7b2-839d-4f3e-b2e3-9acaa63e9e0e": {
+    "pageId": "ac8ef7b2-839d-4f3e-b2e3-9acaa63e9e0e",
+    "pageName": "OrangeHRM",
+    "urlPattern": "https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers",
+    "title": "OrangeHRM",
+    "discoveredDate": "Mon Jul 20 2026 15:53:42 GMT+0530 (India Standard Time)",
+    "lastUpdated": "2026-07-20T10:23:45.115Z",
+    "components": [],
+    "navigationLinks": []
+  },
+  "2bcb48d0-849d-4054-b911-78ad7a5f4bbe": {
+    "pageId": "2bcb48d0-849d-4054-b911-78ad7a5f4bbe",
+    "pageName": "OrangeHRM",
+    "urlPattern": "https://opensource-demo.orangehrmlive.com/web/index.php/auth/login",
+    "title": "OrangeHRM",
+    "discoveredDate": "Mon Jul 20 2026 15:55:08 GMT+0530 (India Standard Time)",
+    "lastUpdated": "2026-07-20T10:25:14.519Z",
+    "components": [],
+    "navigationLinks": []
+  },
+  "aa54d04c-a991-4e38-9b34-882df2f5c50a": {
+    "pageId": "aa54d04c-a991-4e38-9b34-882df2f5c50a",
+    "pageName": "OrangeHRM",
+    "urlPattern": "https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index",
+    "title": "OrangeHRM",
+    "discoveredDate": "Mon Jul 20 2026 15:55:30 GMT+0530 (India Standard Time)",
+    "lastUpdated": "2026-07-20T10:26:05.192Z",
+    "components": [],
+    "navigationLinks": []
+  },
+  "fe6880c4-1feb-4a88-9521-a9b6f23c7d18": {
+    "pageId": "fe6880c4-1feb-4a88-9521-a9b6f23c7d18",
+    "pageName": "OrangeHRM",
+    "urlPattern": "https://opensource-demo.orangehrmlive.com/web/index.php/auth/login",
+    "title": "OrangeHRM",
+    "discoveredDate": "Mon Jul 20 2026 16:00:17 GMT+0530 (India Standard Time)",
+    "lastUpdated": "2026-07-20T10:32:39.816Z",
+    "components": [],
+    "navigationLinks": []
+  },
+  "6f4589ca-bbc8-48f1-9af2-925d5e1a214f": {
+    "pageId": "6f4589ca-bbc8-48f1-9af2-925d5e1a214f",
+    "pageName": "OrangeHRM",
+    "urlPattern": "https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index",
+    "title": "OrangeHRM",
+    "discoveredDate": "Mon Jul 20 2026 16:00:49 GMT+0530 (India Standard Time)",
+    "lastUpdated": "2026-07-20T10:32:58.024Z",
+    "components": [],
+    "navigationLinks": []
+  },
+  "74078d12-5153-4ff1-bc43-b3b2a98cc2e3": {
+    "pageId": "74078d12-5153-4ff1-bc43-b3b2a98cc2e3",
+    "pageName": "OrangeHRM",
+    "urlPattern": "https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers",
+    "title": "OrangeHRM",
+    "discoveredDate": "Mon Jul 20 2026 16:02:06 GMT+0530 (India Standard Time)",
+    "lastUpdated": "2026-07-20T10:32:30.169Z",
+    "components": [],
+    "navigationLinks": []
+  },
+  "97596b5d-b2c5-45e7-9c86-6927e932d8b3": {
+    "pageId": "97596b5d-b2c5-45e7-9c86-6927e932d8b3",
+    "pageName": "OrangeHRM",
+    "urlPattern": "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewEmployeeList",
+    "title": "OrangeHRM",
+    "discoveredDate": "Mon Jul 20 2026 16:03:02 GMT+0530 (India Standard Time)",
+    "lastUpdated": "2026-07-20T10:33:44.492Z",
+    "components": [],
+    "navigationLinks": []
+  }
+}

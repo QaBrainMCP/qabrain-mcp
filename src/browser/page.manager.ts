@@ -7,13 +7,22 @@ export class PageManager {
     private page: Page | null = null;
 
     async getPage(): Promise<Page> {
-        if (!this.page) {
-            this.page = await browserManager.ensurePage();
-            workflowRecorder.attach(this.page);
-            logger.info("Reusing browser page");
-        }
+        try {
+            logger.info("PageManager.getPage started");
+            if (!this.page) {
+                this.page = await browserManager.ensurePage();
+                workflowRecorder.attach(this.page);
+                logger.info("PageManager attached workflow recorder to new page");
+            } else {
+                logger.debug("PageManager reusing existing page");
+            }
 
-        return this.page;
+            logger.info({ url: this.page.url() }, "PageManager.getPage completed");
+            return this.page;
+        } catch (error) {
+            logger.error({ err: error }, "PageManager.getPage failed");
+            throw error;
+        }
     }
 
     async closePage() {

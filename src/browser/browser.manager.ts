@@ -1,6 +1,8 @@
 import { chromium, Browser, BrowserContext, Page } from "playwright";
 import { logger } from "../utils/logger.js";
 
+const DEFAULT_NAVIGATION_TIMEOUT_MS = 60_000;
+
 export class BrowserManager {
     private browser: Browser | null = null;
     private context: BrowserContext | null = null;
@@ -10,6 +12,7 @@ export class BrowserManager {
 
     async launch(): Promise<Browser> {
         if (this.browser) {
+            logger.debug("Browser already launched; reusing instance");
             return this.browser;
         }
 
@@ -17,6 +20,7 @@ export class BrowserManager {
             this.launchPromise = (async () => {
                 logger.info("Launching Browser...");
                 this.browser = await chromium.launch({ headless: false });
+                logger.info("Browser launch completed");
                 return this.browser;
             })().finally(() => {
                 this.launchPromise = null;
@@ -35,11 +39,19 @@ export class BrowserManager {
             this.pagePromise = (async () => {
                 const browser = await this.launch();
                 if (!this.context) {
+                    logger.info("Creating browser context");
                     this.context = await browser.newContext();
+                    logger.info("Browser context created");
                 }
                 if (!this.page) {
+                    logger.info("Creating new browser page");
                     this.page = await this.context.newPage();
-                    logger.info("New Page Created");
+                    this.page.setDefaultNavigationTimeout(DEFAULT_NAVIGATION_TIMEOUT_MS);
+                    this.page.setDefaultTimeout(DEFAULT_NAVIGATION_TIMEOUT_MS);
+                    logger.info(
+                        { navigationTimeoutMs: DEFAULT_NAVIGATION_TIMEOUT_MS },
+                        "New page created with default timeouts"
+                    );
                 }
                 return this.page;
             })().finally(() => {
@@ -86,8 +98,16 @@ export class BrowserManager {
 
     async open(url: string) {
         const page = await this.ensurePage();
-        await page.goto(url);
-        logger.info(`Opened ${url}`);
+        logger.info({ url }, "Page navigation started");
+        await page.goto(url, {
+            waitUntil: "domcontentloaded",
+            timeout: DEFAULT_NAVIGATION_TIMEOUT_MS
+        });
+        await page.locator("body").first().waitFor({
+            state: "visible",
+            timeout: DEFAULT_NAVIGATION_TIMEOUT_MS
+        });
+        logger.info({ url }, "Page navigation completed");
     }
 
     async refresh() {

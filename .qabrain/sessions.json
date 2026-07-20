@@ -1,0 +1,1686 @@
+{
+  "OrangeHRM:Login.feature:mrt59bgw": {
+    "sessionId": "OrangeHRM:Login.feature:mrt59bgw",
+    "application": "OrangeHRM",
+    "feature": "Login.feature",
+    "repositoryVersion": "1",
+    "snapshotVersion": null,
+    "createdAt": "2026-07-20T11:31:25.136Z",
+    "lastAccessed": "2026-07-20T11:31:25.151Z",
+    "knowledgeHealth": "ok",
+    "cachedPages": {
+      "2183c26c-c410-4912-be67-a09e2aff0a03": {
+        "pageId": "2183c26c-c410-4912-be67-a09e2aff0a03",
+        "pageName": "OrangeHRM",
+        "urlPattern": "https://opensource-demo.orangehrmlive.com/web/index.php/auth/login",
+        "title": "OrangeHRM",
+        "discoveredDate": "Mon Jul 20 2026 15:51:57 GMT+0530 (India Standard Time)",
+        "lastUpdated": "2026-07-20T10:23:57.756Z",
+        "components": [],
+        "navigationLinks": []
+      },
+      "81d5a255-8a3d-4ab3-a3c5-d99949c8fe9c": {
+        "pageId": "81d5a255-8a3d-4ab3-a3c5-d99949c8fe9c",
+        "pageName": "OrangeHRM",
+        "urlPattern": "https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index",
+        "title": "OrangeHRM",
+        "discoveredDate": "Mon Jul 20 2026 15:52:12 GMT+0530 (India Standard Time)",
+        "lastUpdated": "2026-07-20T10:24:27.133Z",
+        "components": [],
+        "navigationLinks": []
+      },
+      "ac8ef7b2-839d-4f3e-b2e3-9acaa63e9e0e": {
+        "pageId": "ac8ef7b2-839d-4f3e-b2e3-9acaa63e9e0e",
+        "pageName": "OrangeHRM",
+        "urlPattern": "https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers",
+        "title": "OrangeHRM",
+        "discoveredDate": "Mon Jul 20 2026 15:53:42 GMT+0530 (India Standard Time)",
+        "lastUpdated": "2026-07-20T10:23:45.115Z",
+        "components": [],
+        "navigationLinks": []
+      },
+      "2bcb48d0-849d-4054-b911-78ad7a5f4bbe": {
+        "pageId": "2bcb48d0-849d-4054-b911-78ad7a5f4bbe",
+        "pageName": "OrangeHRM",
+        "urlPattern": "https://opensource-demo.orangehrmlive.com/web/index.php/auth/login",
+        "title": "OrangeHRM",
+        "discoveredDate": "Mon Jul 20 2026 15:55:08 GMT+0530 (India Standard Time)",
+        "lastUpdated": "2026-07-20T10:25:14.519Z",
+        "components": [],
+        "navigationLinks": []
+      },
+      "aa54d04c-a991-4e38-9b34-882df2f5c50a": {
+        "pageId": "aa54d04c-a991-4e38-9b34-882df2f5c50a",
+        "pageName": "OrangeHRM",
+        "urlPattern": "https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index",
+        "title": "OrangeHRM",
+        "discoveredDate": "Mon Jul 20 2026 15:55:30 GMT+0530 (India Standard Time)",
+        "lastUpdated": "2026-07-20T10:26:05.192Z",
+        "components": [],
+        "navigationLinks": []
+      },
+      "fe6880c4-1feb-4a88-9521-a9b6f23c7d18": {
+        "pageId": "fe6880c4-1feb-4a88-9521-a9b6f23c7d18",
+        "pageName": "OrangeHRM",
+        "urlPattern": "https://opensource-demo.orangehrmlive.com/web/index.php/auth/login",
+        "title": "OrangeHRM",
+        "discoveredDate": "Mon Jul 20 2026 16:00:17 GMT+0530 (India Standard Time)",
+        "lastUpdated": "2026-07-20T10:32:39.816Z",
+        "components": [],
+        "navigationLinks": []
+      },
+      "6f4589ca-bbc8-48f1-9af2-925d5e1a214f": {
+        "pageId": "6f4589ca-bbc8-48f1-9af2-925d5e1a214f",
+        "pageName": "OrangeHRM",
+        "urlPattern": "https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index",
+        "title": "OrangeHRM",
+        "discoveredDate": "Mon Jul 20 2026 16:00:49 GMT+0530 (India Standard Time)",
+        "lastUpdated": "2026-07-20T10:32:58.024Z",
+        "components": [],
+        "navigationLinks": []
+      },
+      "74078d12-5153-4ff1-bc43-b3b2a98cc2e3": {
+        "pageId": "74078d12-5153-4ff1-bc43-b3b2a98cc2e3",
+        "pageName": "OrangeHRM",
+        "urlPattern": "https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers",
+        "title": "OrangeHRM",
+        "discoveredDate": "Mon Jul 20 2026 16:02:06 GMT+0530 (India Standard Time)",
+        "lastUpdated": "2026-07-20T10:32:30.169Z",
+        "components": [],
+        "navigationLinks": []
+      },
+      "97596b5d-b2c5-45e7-9c86-6927e932d8b3": {
+        "pageId": "97596b5d-b2c5-45e7-9c86-6927e932d8b3",
+        "pageName": "OrangeHRM",
+        "urlPattern": "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewEmployeeList",
+        "title": "OrangeHRM",
+        "discoveredDate": "Mon Jul 20 2026 16:03:02 GMT+0530 (India Standard Time)",
+        "lastUpdated": "2026-07-20T10:33:44.492Z",
+        "components": [],
+        "navigationLinks": []
+      }
+    },
+    "cachedComponents": {
+      "7b6f4a5f-7e01-4973-90d3-aced8da24ac3": {
+        "componentId": "7b6f4a5f-7e01-4973-90d3-aced8da24ac3",
+        "pageId": "6f4589ca-bbc8-48f1-9af2-925d5e1a214f",
+        "componentType": "button",
+        "businessName": "Button 1",
+        "normalizedName": "button 1",
+        "automationName": "Button 1",
+        "confidence": 80,
+        "createdAt": "Mon Jul 20 2026 16:00:49 GMT+0530 (India Standard Time)"
+      },
+      "cc6b7582-a828-4245-b233-237256dd4653": {
+        "componentId": "cc6b7582-a828-4245-b233-237256dd4653",
+        "pageId": "6f4589ca-bbc8-48f1-9af2-925d5e1a214f",
+        "componentType": "link",
+        "businessName": "Upgrade",
+        "normalizedName": "upgrade",
+        "automationName": "Upgrade",
+        "confidence": 80,
+        "createdAt": "Mon Jul 20 2026 16:00:50 GMT+0530 (India Standard Time)"
+      },
+      "1dd3ed17-caeb-43d3-bb64-56ada853a51a": {
+        "componentId": "1dd3ed17-caeb-43d3-bb64-56ada853a51a",
+        "pageId": "6f4589ca-bbc8-48f1-9af2-925d5e1a214f",
+        "componentType": "button",
+        "businessName": "Button 3",
+        "normalizedName": "button 3",
+        "automationName": "Button 3",
+        "confidence": 80,
+        "createdAt": "Mon Jul 20 2026 16:00:49 GMT+0530 (India Standard Time)"
+      },
+      "0d16ad04-6206-46ba-8f3d-f9b59c047676": {
+        "componentId": "0d16ad04-6206-46ba-8f3d-f9b59c047676",
+        "pageId": "6f4589ca-bbc8-48f1-9af2-925d5e1a214f",
+        "componentType": "button",
+        "businessName": "Button 4",
+        "normalizedName": "button 4",
+        "automationName": "Button 4",
+        "confidence": 80,
+        "createdAt": "Mon Jul 20 2026 16:00:49 GMT+0530 (India Standard Time)"
+      },
+      "8e4246ab-36c4-421d-9524-764d8231bd2c": {
+        "componentId": "8e4246ab-36c4-421d-9524-764d8231bd2c",
+        "pageId": "6f4589ca-bbc8-48f1-9af2-925d5e1a214f",
+        "componentType": "button",
+        "businessName": "Button 5",
+        "normalizedName": "button 5",
+        "automationName": "Button 5",
+        "confidence": 80,
+        "createdAt": "Mon Jul 20 2026 16:00:49 GMT+0530 (India Standard Time)"
+      },
+      "05560184-d69e-4848-9bda-f6aea7c53e08": {
+        "componentId": "05560184-d69e-4848-9bda-f6aea7c53e08",
+        "pageId": "6f4589ca-bbc8-48f1-9af2-925d5e1a214f",
+        "componentType": "button",
+        "businessName": "Button 6",
+        "normalizedName": "button 6",
+        "automationName": "Button 6",
+        "confidence": 80,
+        "createdAt": "Mon Jul 20 2026 16:00:50 GMT+0530 (India Standard Time)"
+      },
+      "64b22e4c-4b3e-4bff-b081-5fd11774c150": {
+        "componentId": "64b22e4c-4b3e-4bff-b081-5fd11774c150",
+        "pageId": "6f4589ca-bbc8-48f1-9af2-925d5e1a214f",
+        "componentType": "button",
+        "businessName": "Button 7",
+        "normalizedName": "button 7",
+        "automationName": "Button 7",
+        "confidence": 80,
+        "createdAt": "Mon Jul 20 2026 16:00:50 GMT+0530 (India Standard Time)"
+      },
+      "b4dc692f-9e1e-4fc3-bf39-b363ba02d1b0": {
+        "componentId": "b4dc692f-9e1e-4fc3-bf39-b363ba02d1b0",
+        "pageId": "6f4589ca-bbc8-48f1-9af2-925d5e1a214f",
+        "componentType": "button",
+        "businessName": "Button 8",
+        "normalizedName": "button 8",
+        "automationName": "Button 8",
+        "confidence": 80,
+        "createdAt": "Mon Jul 20 2026 16:00:50 GMT+0530 (India Standard Time)"
+      },
+      "f3b0f963-a3a5-4f8f-889a-1a1447309aeb": {
+        "componentId": "f3b0f963-a3a5-4f8f-889a-1a1447309aeb",
+        "pageId": "6f4589ca-bbc8-48f1-9af2-925d5e1a214f",
+        "componentType": "button",
+        "businessName": "Button 9",
+        "normalizedName": "button 9",
+        "automationName": "Button 9",
+        "confidence": 80,
+        "createdAt": "Mon Jul 20 2026 16:00:50 GMT+0530 (India Standard Time)"
+      },
+      "a7f0f5fd-a719-4240-a042-91a24494fc6f": {
+        "componentId": "a7f0f5fd-a719-4240-a042-91a24494fc6f",
+        "pageId": "6f4589ca-bbc8-48f1-9af2-925d5e1a214f",
+        "componentType": "button",
+        "businessName": "Button 10",
+        "normalizedName": "button 10",
+        "automationName": "Button 10",
+        "confidence": 80,
+        "createdAt": "Mon Jul 20 2026 16:00:50 GMT+0530 (India Standard Time)"
+      },
+      "fd35a8c5-c5d0-4fee-a948-3dbf358462b6": {
+        "componentId": "fd35a8c5-c5d0-4fee-a948-3dbf358462b6",
+        "pageId": "6f4589ca-bbc8-48f1-9af2-925d5e1a214f",
+        "componentType": "button",
+        "businessName": "Button 11",
+        "normalizedName": "button 11",
+        "automationName": "Button 11",
+        "confidence": 80,
+        "createdAt": "Mon Jul 20 2026 16:00:50 GMT+0530 (India Standard Time)"
+      },
+      "6c6411b2-e047-40eb-894d-cf6e449e9b0b": {
+        "componentId": "6c6411b2-e047-40eb-894d-cf6e449e9b0b",
+        "pageId": "6f4589ca-bbc8-48f1-9af2-925d5e1a214f",
+        "componentType": "button",
+        "businessName": "Button 12",
+        "normalizedName": "button 12",
+        "automationName": "Button 12",
+        "confidence": 80,
+        "createdAt": "Mon Jul 20 2026 16:00:50 GMT+0530 (India Standard Time)"
+      },
+      "5d8d8b82-bf30-4b7c-a6ee-4cf9556879be": {
+        "componentId": "5d8d8b82-bf30-4b7c-a6ee-4cf9556879be",
+        "pageId": "6f4589ca-bbc8-48f1-9af2-925d5e1a214f",
+        "componentType": "link",
+        "businessName": "Link 1",
+        "normalizedName": "link 1",
+        "automationName": "Link 1",
+        "confidence": 80,
+        "createdAt": "Mon Jul 20 2026 16:00:50 GMT+0530 (India Standard Time)"
+      },
+      "8dc731f7-8b5a-4cba-9a80-8ac031d7a3c6": {
+        "componentId": "8dc731f7-8b5a-4cba-9a80-8ac031d7a3c6",
+        "pageId": "6f4589ca-bbc8-48f1-9af2-925d5e1a214f",
+        "componentType": "link",
+        "businessName": "Admin",
+        "normalizedName": "admin",
+        "automationName": "Admin",
+        "confidence": 80,
+        "createdAt": "Mon Jul 20 2026 16:00:50 GMT+0530 (India Standard Time)"
+      },
+      "b0c45ee6-76f1-4ef7-a2ac-9e246d38b442": {
+        "componentId": "b0c45ee6-76f1-4ef7-a2ac-9e246d38b442",
+        "pageId": "6f4589ca-bbc8-48f1-9af2-925d5e1a214f",
+        "componentType": "link",
+        "businessName": "PIM",
+        "normalizedName": "pim",
+        "automationName": "PIM",
+        "confidence": 80,
+        "createdAt": "Mon Jul 20 2026 16:00:50 GMT+0530 (India Standard Time)"
+      },
+      "ae7e3e43-4136-4e96-a5a1-85ceaa46a1f2": {
+        "componentId": "ae7e3e43-4136-4e96-a5a1-85ceaa46a1f2",
+        "pageId": "6f4589ca-bbc8-48f1-9af2-925d5e1a214f",
+        "componentType": "link",
+        "businessName": "Leave",
+        "normalizedName": "leave",
+        "automationName": "Leave",
+        "confidence": 80,
+        "createdAt": "Mon Jul 20 2026 16:00:50 GMT+0530 (India Standard Time)"
+      },
+      "8a7f374f-7953-4506-9de1-623daaf91a39": {
+        "componentId": "8a7f374f-7953-4506-9de1-623daaf91a39",
+        "pageId": "6f4589ca-bbc8-48f1-9af2-925d5e1a214f",
+        "componentType": "link",
+        "businessName": "Time",
+        "normalizedName": "time",
+        "automationName": "Time",
+        "confidence": 80,
+        "createdAt": "Mon Jul 20 2026 16:00:50 GMT+0530 (India Standard Time)"
+      },
+      "260bd0be-4ddc-471f-ae34-148a79b1cfa1": {
+        "componentId": "260bd0be-4ddc-471f-ae34-148a79b1cfa1",
+        "pageId": "6f4589ca-bbc8-48f1-9af2-925d5e1a214f",
+        "componentType": "link",
+        "businessName": "Recruitment",
+        "normalizedName": "recruitment",
+        "automationName": "Recruitment",
+        "confidence": 80,
+        "createdAt": "Mon Jul 20 2026 16:00:50 GMT+0530 (India Standard Time)"
+      },
+      "5485ea19-75ed-4b09-ae27-7e8061ecb48c": {
+        "componentId": "5485ea19-75ed-4b09-ae27-7e8061ecb48c",
+        "pageId": "6f4589ca-bbc8-48f1-9af2-925d5e1a214f",
+        "componentType": "link",
+        "businessName": "My Info",
+        "normalizedName": "my info",
+        "automationName": "My Info",
+        "confidence": 80,
+        "createdAt": "Mon Jul 20 2026 16:00:50 GMT+0530 (India Standard Time)"
+      },
+      "f6344c6b-62fa-4327-837b-d70d889df3d1": {
+        "componentId": "f6344c6b-62fa-4327-837b-d70d889df3d1",
+        "pageId": "6f4589ca-bbc8-48f1-9af2-925d5e1a214f",
+        "componentType": "link",
+        "businessName": "Performance",
+        "normalizedName": "performance",
+        "automationName": "Performance",
+        "confidence": 80,
+        "createdAt": "Mon Jul 20 2026 16:00:50 GMT+0530 (India Standard Time)"
+      },
+      "427f7ac1-7af8-427f-b853-dece130945fd": {
+        "componentId": "427f7ac1-7af8-427f-b853-dece130945fd",
+        "pageId": "6f4589ca-bbc8-48f1-9af2-925d5e1a214f",
+        "componentType": "link",
+        "businessName": "Dashboard",
+        "normalizedName": "dashboard",
+        "automationName": "Dashboard",
+        "confidence": 80,
+        "createdAt": "Mon Jul 20 2026 16:00:50 GMT+0530 (India Standard Time)"
+      },
+      "7ac4c40b-9879-46d7-8c0f-d663fa5f5ee5": {
+        "componentId": "7ac4c40b-9879-46d7-8c0f-d663fa5f5ee5",
+        "pageId": "6f4589ca-bbc8-48f1-9af2-925d5e1a214f",
+        "componentType": "link",
+        "businessName": "Directory",
+        "normalizedName": "directory",
+        "automationName": "Directory",
+        "confidence": 80,
+        "createdAt": "Mon Jul 20 2026 16:00:50 GMT+0530 (India Standard Time)"
+      },
+      "08fe0de7-362c-42d0-83ff-d043451b6908": {
+        "componentId": "08fe0de7-362c-42d0-83ff-d043451b6908",
+        "pageId": "6f4589ca-bbc8-48f1-9af2-925d5e1a214f",
+        "componentType": "link",
+        "businessName": "Maintenance",
+        "normalizedName": "maintenance",
+        "automationName": "Maintenance",
+        "confidence": 80,
+        "createdAt": "Mon Jul 20 2026 16:00:50 GMT+0530 (India Standard Time)"
+      },
+      "f22b1556-7c4e-4caf-9cbf-9352e60a0018": {
+        "componentId": "f22b1556-7c4e-4caf-9cbf-9352e60a0018",
+        "pageId": "6f4589ca-bbc8-48f1-9af2-925d5e1a214f",
+        "componentType": "link",
+        "businessName": "Claim",
+        "normalizedName": "claim",
+        "automationName": "Claim",
+        "confidence": 80,
+        "createdAt": "Mon Jul 20 2026 16:00:50 GMT+0530 (India Standard Time)"
+      },
+      "01457d2d-70a7-4295-8d4a-bb7db3ed8b4e": {
+        "componentId": "01457d2d-70a7-4295-8d4a-bb7db3ed8b4e",
+        "pageId": "6f4589ca-bbc8-48f1-9af2-925d5e1a214f",
+        "componentType": "link",
+        "businessName": "Buzz",
+        "normalizedName": "buzz",
+        "automationName": "Buzz",
+        "confidence": 80,
+        "createdAt": "Mon Jul 20 2026 16:00:50 GMT+0530 (India Standard Time)"
+      },
+      "d6cb332a-32ec-4824-a020-0aec166e75ec": {
+        "componentId": "d6cb332a-32ec-4824-a020-0aec166e75ec",
+        "pageId": "6f4589ca-bbc8-48f1-9af2-925d5e1a214f",
+        "componentType": "link",
+        "businessName": "OrangeHRM, Inc",
+        "normalizedName": "orangehrm, inc",
+        "automationName": "OrangeHRM, Inc",
+        "confidence": 80,
+        "createdAt": "Mon Jul 20 2026 16:00:50 GMT+0530 (India Standard Time)"
+      },
+      "3f20af8f-5b7b-43b0-93f5-854eb88e4955": {
+        "componentId": "3f20af8f-5b7b-43b0-93f5-854eb88e4955",
+        "pageId": "74078d12-5153-4ff1-bc43-b3b2a98cc2e3",
+        "componentType": "link",
+        "businessName": "Admin",
+        "normalizedName": "admin",
+        "automationName": "Admin",
+        "confidence": 80,
+        "createdAt": "Mon Jul 20 2026 16:02:06 GMT+0530 (India Standard Time)"
+      },
+      "2e9265c7-ac9b-485c-936d-f89ee28e6ab3": {
+        "componentId": "2e9265c7-ac9b-485c-936d-f89ee28e6ab3",
+        "pageId": "97596b5d-b2c5-45e7-9c86-6927e932d8b3",
+        "componentType": "link",
+        "businessName": "PIM",
+        "normalizedName": "pim",
+        "automationName": "PIM",
+        "confidence": 80,
+        "createdAt": "Mon Jul 20 2026 16:03:02 GMT+0530 (India Standard Time)"
+      }
+    },
+    "cachedNavigation": [],
+    "cachedVerification": {
+      "2183c26c-c410-4912-be67-a09e2aff0a03": {
+        "headings": []
+      },
+      "81d5a255-8a3d-4ab3-a3c5-d99949c8fe9c": {
+        "headings": []
+      },
+      "ac8ef7b2-839d-4f3e-b2e3-9acaa63e9e0e": {
+        "headings": []
+      },
+      "2bcb48d0-849d-4054-b911-78ad7a5f4bbe": {
+        "headings": []
+      },
+      "aa54d04c-a991-4e38-9b34-882df2f5c50a": {
+        "headings": []
+      },
+      "fe6880c4-1feb-4a88-9521-a9b6f23c7d18": {
+        "headings": []
+      },
+      "6f4589ca-bbc8-48f1-9af2-925d5e1a214f": {
+        "headings": []
+      },
+      "74078d12-5153-4ff1-bc43-b3b2a98cc2e3": {
+        "headings": []
+      },
+      "97596b5d-b2c5-45e7-9c86-6927e932d8b3": {
+        "headings": []
+      }
+    },
+    "cachedMetadata": {
+      "createdAt": "2026-07-20T10:21:47.453Z",
+      "lastOpenedAt": "2026-07-20T11:31:25.132Z",
+      "version": "1"
+    },
+    "repositoryHits": 0,
+    "cacheHits": 1
+  },
+  "OrangeHRM:Login.feature:mrt5gxiu": {
+    "sessionId": "OrangeHRM:Login.feature:mrt5gxiu",
+    "application": "OrangeHRM",
+    "feature": "Login.feature",
+    "repositoryVersion": "1",
+    "snapshotVersion": null,
+    "createdAt": "2026-07-20T11:37:20.310Z",
+    "lastAccessed": "2026-07-20T11:37:20.310Z",
+    "knowledgeHealth": "ok",
+    "cachedPages": {
+      "2183c26c-c410-4912-be67-a09e2aff0a03": {
+        "pageId": "2183c26c-c410-4912-be67-a09e2aff0a03",
+        "pageName": "OrangeHRM",
+        "urlPattern": "https://opensource-demo.orangehrmlive.com/web/index.php/auth/login",
+        "title": "OrangeHRM",
+        "discoveredDate": "Mon Jul 20 2026 15:51:57 GMT+0530 (India Standard Time)",
+        "lastUpdated": "2026-07-20T10:23:57.756Z",
+        "components": [],
+        "navigationLinks": []
+      },
+      "81d5a255-8a3d-4ab3-a3c5-d99949c8fe9c": {
+        "pageId": "81d5a255-8a3d-4ab3-a3c5-d99949c8fe9c",
+        "pageName": "OrangeHRM",
+        "urlPattern": "https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index",
+        "title": "OrangeHRM",
+        "discoveredDate": "Mon Jul 20 2026 15:52:12 GMT+0530 (India Standard Time)",
+        "lastUpdated": "2026-07-20T10:24:27.133Z",
+        "components": [],
+        "navigationLinks": []
+      },
+      "ac8ef7b2-839d-4f3e-b2e3-9acaa63e9e0e": {
+        "pageId": "ac8ef7b2-839d-4f3e-b2e3-9acaa63e9e0e",
+        "pageName": "OrangeHRM",
+        "urlPattern": "https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers",
+        "title": "OrangeHRM",
+        "discoveredDate": "Mon Jul 20 2026 15:53:42 GMT+0530 (India Standard Time)",
+        "lastUpdated": "2026-07-20T10:23:45.115Z",
+        "components": [],
+        "navigationLinks": []
+      },
+      "2bcb48d0-849d-4054-b911-78ad7a5f4bbe": {
+        "pageId": "2bcb48d0-849d-4054-b911-78ad7a5f4bbe",
+        "pageName": "OrangeHRM",
+        "urlPattern": "https://opensource-demo.orangehrmlive.com/web/index.php/auth/login",
+        "title": "OrangeHRM",
+        "discoveredDate": "Mon Jul 20 2026 15:55:08 GMT+0530 (India Standard Time)",
+        "lastUpdated": "2026-07-20T10:25:14.519Z",
+        "components": [],
+        "navigationLinks": []
+      },
+      "aa54d04c-a991-4e38-9b34-882df2f5c50a": {
+        "pageId": "aa54d04c-a991-4e38-9b34-882df2f5c50a",
+        "pageName": "OrangeHRM",
+        "urlPattern": "https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index",
+        "title": "OrangeHRM",
+        "discoveredDate": "Mon Jul 20 2026 15:55:30 GMT+0530 (India Standard Time)",
+        "lastUpdated": "2026-07-20T10:26:05.192Z",
+        "components": [],
+        "navigationLinks": []
+      },
+      "fe6880c4-1feb-4a88-9521-a9b6f23c7d18": {
+        "pageId": "fe6880c4-1feb-4a88-9521-a9b6f23c7d18",
+        "pageName": "OrangeHRM",
+        "urlPattern": "https://opensource-demo.orangehrmlive.com/web/index.php/auth/login",
+        "title": "OrangeHRM",
+        "discoveredDate": "Mon Jul 20 2026 16:00:17 GMT+0530 (India Standard Time)",
+        "lastUpdated": "2026-07-20T10:32:39.816Z",
+        "components": [],
+        "navigationLinks": []
+      },
+      "6f4589ca-bbc8-48f1-9af2-925d5e1a214f": {
+        "pageId": "6f4589ca-bbc8-48f1-9af2-925d5e1a214f",
+        "pageName": "OrangeHRM",
+        "urlPattern": "https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index",
+        "title": "OrangeHRM",
+        "discoveredDate": "Mon Jul 20 2026 16:00:49 GMT+0530 (India Standard Time)",
+        "lastUpdated": "2026-07-20T10:32:58.024Z",
+        "components": [],
+        "navigationLinks": []
+      },
+      "74078d12-5153-4ff1-bc43-b3b2a98cc2e3": {
+        "pageId": "74078d12-5153-4ff1-bc43-b3b2a98cc2e3",
+        "pageName": "OrangeHRM",
+        "urlPattern": "https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers",
+        "title": "OrangeHRM",
+        "discoveredDate": "Mon Jul 20 2026 16:02:06 GMT+0530 (India Standard Time)",
+        "lastUpdated": "2026-07-20T10:32:30.169Z",
+        "components": [],
+        "navigationLinks": []
+      },
+      "97596b5d-b2c5-45e7-9c86-6927e932d8b3": {
+        "pageId": "97596b5d-b2c5-45e7-9c86-6927e932d8b3",
+        "pageName": "OrangeHRM",
+        "urlPattern": "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewEmployeeList",
+        "title": "OrangeHRM",
+        "discoveredDate": "Mon Jul 20 2026 16:03:02 GMT+0530 (India Standard Time)",
+        "lastUpdated": "2026-07-20T10:33:44.492Z",
+        "components": [],
+        "navigationLinks": []
+      }
+    },
+    "cachedComponents": {
+      "7b6f4a5f-7e01-4973-90d3-aced8da24ac3": {
+        "componentId": "7b6f4a5f-7e01-4973-90d3-aced8da24ac3",
+        "pageId": "6f4589ca-bbc8-48f1-9af2-925d5e1a214f",
+        "componentType": "button",
+        "businessName": "Button 1",
+        "normalizedName": "button 1",
+        "automationName": "Button 1",
+        "confidence": 80,
+        "createdAt": "Mon Jul 20 2026 16:00:49 GMT+0530 (India Standard Time)"
+      },
+      "cc6b7582-a828-4245-b233-237256dd4653": {
+        "componentId": "cc6b7582-a828-4245-b233-237256dd4653",
+        "pageId": "6f4589ca-bbc8-48f1-9af2-925d5e1a214f",
+        "componentType": "link",
+        "businessName": "Upgrade",
+        "normalizedName": "upgrade",
+        "automationName": "Upgrade",
+        "confidence": 80,
+        "createdAt": "Mon Jul 20 2026 16:00:50 GMT+0530 (India Standard Time)"
+      },
+      "1dd3ed17-caeb-43d3-bb64-56ada853a51a": {
+        "componentId": "1dd3ed17-caeb-43d3-bb64-56ada853a51a",
+        "pageId": "6f4589ca-bbc8-48f1-9af2-925d5e1a214f",
+        "componentType": "button",
+        "businessName": "Button 3",
+        "normalizedName": "button 3",
+        "automationName": "Button 3",
+        "confidence": 80,
+        "createdAt": "Mon Jul 20 2026 16:00:49 GMT+0530 (India Standard Time)"
+      },
+      "0d16ad04-6206-46ba-8f3d-f9b59c047676": {
+        "componentId": "0d16ad04-6206-46ba-8f3d-f9b59c047676",
+        "pageId": "6f4589ca-bbc8-48f1-9af2-925d5e1a214f",
+        "componentType": "button",
+        "businessName": "Button 4",
+        "normalizedName": "button 4",
+        "automationName": "Button 4",
+        "confidence": 80,
+        "createdAt": "Mon Jul 20 2026 16:00:49 GMT+0530 (India Standard Time)"
+      },
+      "8e4246ab-36c4-421d-9524-764d8231bd2c": {
+        "componentId": "8e4246ab-36c4-421d-9524-764d8231bd2c",
+        "pageId": "6f4589ca-bbc8-48f1-9af2-925d5e1a214f",
+        "componentType": "button",
+        "businessName": "Button 5",
+        "normalizedName": "button 5",
+        "automationName": "Button 5",
+        "confidence": 80,
+        "createdAt": "Mon Jul 20 2026 16:00:49 GMT+0530 (India Standard Time)"
+      },
+      "05560184-d69e-4848-9bda-f6aea7c53e08": {
+        "componentId": "05560184-d69e-4848-9bda-f6aea7c53e08",
+        "pageId": "6f4589ca-bbc8-48f1-9af2-925d5e1a214f",
+        "componentType": "button",
+        "businessName": "Button 6",
+        "normalizedName": "button 6",
+        "automationName": "Button 6",
+        "confidence": 80,
+        "createdAt": "Mon Jul 20 2026 16:00:50 GMT+0530 (India Standard Time)"
+      },
+      "64b22e4c-4b3e-4bff-b081-5fd11774c150": {
+        "componentId": "64b22e4c-4b3e-4bff-b081-5fd11774c150",
+        "pageId": "6f4589ca-bbc8-48f1-9af2-925d5e1a214f",
+        "componentType": "button",
+        "businessName": "Button 7",
+        "normalizedName": "button 7",
+        "automationName": "Button 7",
+        "confidence": 80,
+        "createdAt": "Mon Jul 20 2026 16:00:50 GMT+0530 (India Standard Time)"
+      },
+      "b4dc692f-9e1e-4fc3-bf39-b363ba02d1b0": {
+        "componentId": "b4dc692f-9e1e-4fc3-bf39-b363ba02d1b0",
+        "pageId": "6f4589ca-bbc8-48f1-9af2-925d5e1a214f",
+        "componentType": "button",
+        "businessName": "Button 8",
+        "normalizedName": "button 8",
+        "automationName": "Button 8",
+        "confidence": 80,
+        "createdAt": "Mon Jul 20 2026 16:00:50 GMT+0530 (India Standard Time)"
+      },
+      "f3b0f963-a3a5-4f8f-889a-1a1447309aeb": {
+        "componentId": "f3b0f963-a3a5-4f8f-889a-1a1447309aeb",
+        "pageId": "6f4589ca-bbc8-48f1-9af2-925d5e1a214f",
+        "componentType": "button",
+        "businessName": "Button 9",
+        "normalizedName": "button 9",
+        "automationName": "Button 9",
+        "confidence": 80,
+        "createdAt": "Mon Jul 20 2026 16:00:50 GMT+0530 (India Standard Time)"
+      },
+      "a7f0f5fd-a719-4240-a042-91a24494fc6f": {
+        "componentId": "a7f0f5fd-a719-4240-a042-91a24494fc6f",
+        "pageId": "6f4589ca-bbc8-48f1-9af2-925d5e1a214f",
+        "componentType": "button",
+        "businessName": "Button 10",
+        "normalizedName": "button 10",
+        "automationName": "Button 10",
+        "confidence": 80,
+        "createdAt": "Mon Jul 20 2026 16:00:50 GMT+0530 (India Standard Time)"
+      },
+      "fd35a8c5-c5d0-4fee-a948-3dbf358462b6": {
+        "componentId": "fd35a8c5-c5d0-4fee-a948-3dbf358462b6",
+        "pageId": "6f4589ca-bbc8-48f1-9af2-925d5e1a214f",
+        "componentType": "button",
+        "businessName": "Button 11",
+        "normalizedName": "button 11",
+        "automationName": "Button 11",
+        "confidence": 80,
+        "createdAt": "Mon Jul 20 2026 16:00:50 GMT+0530 (India Standard Time)"
+      },
+      "6c6411b2-e047-40eb-894d-cf6e449e9b0b": {
+        "componentId": "6c6411b2-e047-40eb-894d-cf6e449e9b0b",
+        "pageId": "6f4589ca-bbc8-48f1-9af2-925d5e1a214f",
+        "componentType": "button",
+        "businessName": "Button 12",
+        "normalizedName": "button 12",
+        "automationName": "Button 12",
+        "confidence": 80,
+        "createdAt": "Mon Jul 20 2026 16:00:50 GMT+0530 (India Standard Time)"
+      },
+      "5d8d8b82-bf30-4b7c-a6ee-4cf9556879be": {
+        "componentId": "5d8d8b82-bf30-4b7c-a6ee-4cf9556879be",
+        "pageId": "6f4589ca-bbc8-48f1-9af2-925d5e1a214f",
+        "componentType": "link",
+        "businessName": "Link 1",
+        "normalizedName": "link 1",
+        "automationName": "Link 1",
+        "confidence": 80,
+        "createdAt": "Mon Jul 20 2026 16:00:50 GMT+0530 (India Standard Time)"
+      },
+      "8dc731f7-8b5a-4cba-9a80-8ac031d7a3c6": {
+        "componentId": "8dc731f7-8b5a-4cba-9a80-8ac031d7a3c6",
+        "pageId": "6f4589ca-bbc8-48f1-9af2-925d5e1a214f",
+        "componentType": "link",
+        "businessName": "Admin",
+        "normalizedName": "admin",
+        "automationName": "Admin",
+        "confidence": 80,
+        "createdAt": "Mon Jul 20 2026 16:00:50 GMT+0530 (India Standard Time)"
+      },
+      "b0c45ee6-76f1-4ef7-a2ac-9e246d38b442": {
+        "componentId": "b0c45ee6-76f1-4ef7-a2ac-9e246d38b442",
+        "pageId": "6f4589ca-bbc8-48f1-9af2-925d5e1a214f",
+        "componentType": "link",
+        "businessName": "PIM",
+        "normalizedName": "pim",
+        "automationName": "PIM",
+        "confidence": 80,
+        "createdAt": "Mon Jul 20 2026 16:00:50 GMT+0530 (India Standard Time)"
+      },
+      "ae7e3e43-4136-4e96-a5a1-85ceaa46a1f2": {
+        "componentId": "ae7e3e43-4136-4e96-a5a1-85ceaa46a1f2",
+        "pageId": "6f4589ca-bbc8-48f1-9af2-925d5e1a214f",
+        "componentType": "link",
+        "businessName": "Leave",
+        "normalizedName": "leave",
+        "automationName": "Leave",
+        "confidence": 80,
+        "createdAt": "Mon Jul 20 2026 16:00:50 GMT+0530 (India Standard Time)"
+      },
+      "8a7f374f-7953-4506-9de1-623daaf91a39": {
+        "componentId": "8a7f374f-7953-4506-9de1-623daaf91a39",
+        "pageId": "6f4589ca-bbc8-48f1-9af2-925d5e1a214f",
+        "componentType": "link",
+        "businessName": "Time",
+        "normalizedName": "time",
+        "automationName": "Time",
+        "confidence": 80,
+        "createdAt": "Mon Jul 20 2026 16:00:50 GMT+0530 (India Standard Time)"
+      },
+      "260bd0be-4ddc-471f-ae34-148a79b1cfa1": {
+        "componentId": "260bd0be-4ddc-471f-ae34-148a79b1cfa1",
+        "pageId": "6f4589ca-bbc8-48f1-9af2-925d5e1a214f",
+        "componentType": "link",
+        "businessName": "Recruitment",
+        "normalizedName": "recruitment",
+        "automationName": "Recruitment",
+        "confidence": 80,
+        "createdAt": "Mon Jul 20 2026 16:00:50 GMT+0530 (India Standard Time)"
+      },
+      "5485ea19-75ed-4b09-ae27-7e8061ecb48c": {
+        "componentId": "5485ea19-75ed-4b09-ae27-7e8061ecb48c",
+        "pageId": "6f4589ca-bbc8-48f1-9af2-925d5e1a214f",
+        "componentType": "link",
+        "businessName": "My Info",
+        "normalizedName": "my info",
+        "automationName": "My Info",
+        "confidence": 80,
+        "createdAt": "Mon Jul 20 2026 16:00:50 GMT+0530 (India Standard Time)"
+      },
+      "f6344c6b-62fa-4327-837b-d70d889df3d1": {
+        "componentId": "f6344c6b-62fa-4327-837b-d70d889df3d1",
+        "pageId": "6f4589ca-bbc8-48f1-9af2-925d5e1a214f",
+        "componentType": "link",
+        "businessName": "Performance",
+        "normalizedName": "performance",
+        "automationName": "Performance",
+        "confidence": 80,
+        "createdAt": "Mon Jul 20 2026 16:00:50 GMT+0530 (India Standard Time)"
+      },
+      "427f7ac1-7af8-427f-b853-dece130945fd": {
+        "componentId": "427f7ac1-7af8-427f-b853-dece130945fd",
+        "pageId": "6f4589ca-bbc8-48f1-9af2-925d5e1a214f",
+        "componentType": "link",
+        "businessName": "Dashboard",
+        "normalizedName": "dashboard",
+        "automationName": "Dashboard",
+        "confidence": 80,
+        "createdAt": "Mon Jul 20 2026 16:00:50 GMT+0530 (India Standard Time)"
+      },
+      "7ac4c40b-9879-46d7-8c0f-d663fa5f5ee5": {
+        "componentId": "7ac4c40b-9879-46d7-8c0f-d663fa5f5ee5",
+        "pageId": "6f4589ca-bbc8-48f1-9af2-925d5e1a214f",
+        "componentType": "link",
+        "businessName": "Directory",
+        "normalizedName": "directory",
+        "automationName": "Directory",
+        "confidence": 80,
+        "createdAt": "Mon Jul 20 2026 16:00:50 GMT+0530 (India Standard Time)"
+      },
+      "08fe0de7-362c-42d0-83ff-d043451b6908": {
+        "componentId": "08fe0de7-362c-42d0-83ff-d043451b6908",
+        "pageId": "6f4589ca-bbc8-48f1-9af2-925d5e1a214f",
+        "componentType": "link",
+        "businessName": "Maintenance",
+        "normalizedName": "maintenance",
+        "automationName": "Maintenance",
+        "confidence": 80,
+        "createdAt": "Mon Jul 20 2026 16:00:50 GMT+0530 (India Standard Time)"
+      },
+      "f22b1556-7c4e-4caf-9cbf-9352e60a0018": {
+        "componentId": "f22b1556-7c4e-4caf-9cbf-9352e60a0018",
+        "pageId": "6f4589ca-bbc8-48f1-9af2-925d5e1a214f",
+        "componentType": "link",
+        "businessName": "Claim",
+        "normalizedName": "claim",
+        "automationName": "Claim",
+        "confidence": 80,
+        "createdAt": "Mon Jul 20 2026 16:00:50 GMT+0530 (India Standard Time)"
+      },
+      "01457d2d-70a7-4295-8d4a-bb7db3ed8b4e": {
+        "componentId": "01457d2d-70a7-4295-8d4a-bb7db3ed8b4e",
+        "pageId": "6f4589ca-bbc8-48f1-9af2-925d5e1a214f",
+        "componentType": "link",
+        "businessName": "Buzz",
+        "normalizedName": "buzz",
+        "automationName": "Buzz",
+        "confidence": 80,
+        "createdAt": "Mon Jul 20 2026 16:00:50 GMT+0530 (India Standard Time)"
+      },
+      "d6cb332a-32ec-4824-a020-0aec166e75ec": {
+        "componentId": "d6cb332a-32ec-4824-a020-0aec166e75ec",
+        "pageId": "6f4589ca-bbc8-48f1-9af2-925d5e1a214f",
+        "componentType": "link",
+        "businessName": "OrangeHRM, Inc",
+        "normalizedName": "orangehrm, inc",
+        "automationName": "OrangeHRM, Inc",
+        "confidence": 80,
+        "createdAt": "Mon Jul 20 2026 16:00:50 GMT+0530 (India Standard Time)"
+      },
+      "3f20af8f-5b7b-43b0-93f5-854eb88e4955": {
+        "componentId": "3f20af8f-5b7b-43b0-93f5-854eb88e4955",
+        "pageId": "74078d12-5153-4ff1-bc43-b3b2a98cc2e3",
+        "componentType": "link",
+        "businessName": "Admin",
+        "normalizedName": "admin",
+        "automationName": "Admin",
+        "confidence": 80,
+        "createdAt": "Mon Jul 20 2026 16:02:06 GMT+0530 (India Standard Time)"
+      },
+      "2e9265c7-ac9b-485c-936d-f89ee28e6ab3": {
+        "componentId": "2e9265c7-ac9b-485c-936d-f89ee28e6ab3",
+        "pageId": "97596b5d-b2c5-45e7-9c86-6927e932d8b3",
+        "componentType": "link",
+        "businessName": "PIM",
+        "normalizedName": "pim",
+        "automationName": "PIM",
+        "confidence": 80,
+        "createdAt": "Mon Jul 20 2026 16:03:02 GMT+0530 (India Standard Time)"
+      }
+    },
+    "cachedNavigation": [],
+    "cachedVerification": {
+      "2183c26c-c410-4912-be67-a09e2aff0a03": {
+        "headings": []
+      },
+      "81d5a255-8a3d-4ab3-a3c5-d99949c8fe9c": {
+        "headings": []
+      },
+      "ac8ef7b2-839d-4f3e-b2e3-9acaa63e9e0e": {
+        "headings": []
+      },
+      "2bcb48d0-849d-4054-b911-78ad7a5f4bbe": {
+        "headings": []
+      },
+      "aa54d04c-a991-4e38-9b34-882df2f5c50a": {
+        "headings": []
+      },
+      "fe6880c4-1feb-4a88-9521-a9b6f23c7d18": {
+        "headings": []
+      },
+      "6f4589ca-bbc8-48f1-9af2-925d5e1a214f": {
+        "headings": []
+      },
+      "74078d12-5153-4ff1-bc43-b3b2a98cc2e3": {
+        "headings": []
+      },
+      "97596b5d-b2c5-45e7-9c86-6927e932d8b3": {
+        "headings": []
+      }
+    },
+    "cachedMetadata": {
+      "createdAt": "2026-07-20T10:21:47.453Z",
+      "lastOpenedAt": "2026-07-20T11:37:20.307Z",
+      "version": "1"
+    },
+    "repositoryHits": 0,
+    "cacheHits": 0
+  },
+  "OrangeHRM:Login.feature:mrt5icuu": {
+    "sessionId": "OrangeHRM:Login.feature:mrt5icuu",
+    "application": "OrangeHRM",
+    "feature": "Login.feature",
+    "repositoryVersion": "1",
+    "snapshotVersion": null,
+    "createdAt": "2026-07-20T11:38:26.838Z",
+    "lastAccessed": "2026-07-20T11:38:26.903Z",
+    "knowledgeHealth": "ok",
+    "cachedPages": {
+      "2183c26c-c410-4912-be67-a09e2aff0a03": {
+        "pageId": "2183c26c-c410-4912-be67-a09e2aff0a03",
+        "pageName": "OrangeHRM",
+        "urlPattern": "https://opensource-demo.orangehrmlive.com/web/index.php/auth/login",
+        "title": "OrangeHRM",
+        "discoveredDate": "Mon Jul 20 2026 15:51:57 GMT+0530 (India Standard Time)",
+        "lastUpdated": "2026-07-20T10:23:57.756Z",
+        "components": [],
+        "navigationLinks": []
+      },
+      "81d5a255-8a3d-4ab3-a3c5-d99949c8fe9c": {
+        "pageId": "81d5a255-8a3d-4ab3-a3c5-d99949c8fe9c",
+        "pageName": "OrangeHRM",
+        "urlPattern": "https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index",
+        "title": "OrangeHRM",
+        "discoveredDate": "Mon Jul 20 2026 15:52:12 GMT+0530 (India Standard Time)",
+        "lastUpdated": "2026-07-20T10:24:27.133Z",
+        "components": [],
+        "navigationLinks": []
+      },
+      "ac8ef7b2-839d-4f3e-b2e3-9acaa63e9e0e": {
+        "pageId": "ac8ef7b2-839d-4f3e-b2e3-9acaa63e9e0e",
+        "pageName": "OrangeHRM",
+        "urlPattern": "https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers",
+        "title": "OrangeHRM",
+        "discoveredDate": "Mon Jul 20 2026 15:53:42 GMT+0530 (India Standard Time)",
+        "lastUpdated": "2026-07-20T10:23:45.115Z",
+        "components": [],
+        "navigationLinks": []
+      },
+      "2bcb48d0-849d-4054-b911-78ad7a5f4bbe": {
+        "pageId": "2bcb48d0-849d-4054-b911-78ad7a5f4bbe",
+        "pageName": "OrangeHRM",
+        "urlPattern": "https://opensource-demo.orangehrmlive.com/web/index.php/auth/login",
+        "title": "OrangeHRM",
+        "discoveredDate": "Mon Jul 20 2026 15:55:08 GMT+0530 (India Standard Time)",
+        "lastUpdated": "2026-07-20T10:25:14.519Z",
+        "components": [],
+        "navigationLinks": []
+      },
+      "aa54d04c-a991-4e38-9b34-882df2f5c50a": {
+        "pageId": "aa54d04c-a991-4e38-9b34-882df2f5c50a",
+        "pageName": "OrangeHRM",
+        "urlPattern": "https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index",
+        "title": "OrangeHRM",
+        "discoveredDate": "Mon Jul 20 2026 15:55:30 GMT+0530 (India Standard Time)",
+        "lastUpdated": "2026-07-20T10:26:05.192Z",
+        "components": [],
+        "navigationLinks": []
+      },
+      "fe6880c4-1feb-4a88-9521-a9b6f23c7d18": {
+        "pageId": "fe6880c4-1feb-4a88-9521-a9b6f23c7d18",
+        "pageName": "OrangeHRM",
+        "urlPattern": "https://opensource-demo.orangehrmlive.com/web/index.php/auth/login",
+        "title": "OrangeHRM",
+        "discoveredDate": "Mon Jul 20 2026 16:00:17 GMT+0530 (India Standard Time)",
+        "lastUpdated": "2026-07-20T10:32:39.816Z",
+        "components": [],
+        "navigationLinks": []
+      },
+      "6f4589ca-bbc8-48f1-9af2-925d5e1a214f": {
+        "pageId": "6f4589ca-bbc8-48f1-9af2-925d5e1a214f",
+        "pageName": "OrangeHRM",
+        "urlPattern": "https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index",
+        "title": "OrangeHRM",
+        "discoveredDate": "Mon Jul 20 2026 16:00:49 GMT+0530 (India Standard Time)",
+        "lastUpdated": "2026-07-20T10:32:58.024Z",
+        "components": [],
+        "navigationLinks": []
+      },
+      "74078d12-5153-4ff1-bc43-b3b2a98cc2e3": {
+        "pageId": "74078d12-5153-4ff1-bc43-b3b2a98cc2e3",
+        "pageName": "OrangeHRM",
+        "urlPattern": "https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers",
+        "title": "OrangeHRM",
+        "discoveredDate": "Mon Jul 20 2026 16:02:06 GMT+0530 (India Standard Time)",
+        "lastUpdated": "2026-07-20T10:32:30.169Z",
+        "components": [],
+        "navigationLinks": []
+      },
+      "97596b5d-b2c5-45e7-9c86-6927e932d8b3": {
+        "pageId": "97596b5d-b2c5-45e7-9c86-6927e932d8b3",
+        "pageName": "OrangeHRM",
+        "urlPattern": "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewEmployeeList",
+        "title": "OrangeHRM",
+        "discoveredDate": "Mon Jul 20 2026 16:03:02 GMT+0530 (India Standard Time)",
+        "lastUpdated": "2026-07-20T10:33:44.492Z",
+        "components": [],
+        "navigationLinks": []
+      }
+    },
+    "cachedComponents": {
+      "7b6f4a5f-7e01-4973-90d3-aced8da24ac3": {
+        "componentId": "7b6f4a5f-7e01-4973-90d3-aced8da24ac3",
+        "pageId": "6f4589ca-bbc8-48f1-9af2-925d5e1a214f",
+        "componentType": "button",
+        "businessName": "Button 1",
+        "normalizedName": "button 1",
+        "automationName": "Button 1",
+        "confidence": 80,
+        "createdAt": "Mon Jul 20 2026 16:00:49 GMT+0530 (India Standard Time)"
+      },
+      "cc6b7582-a828-4245-b233-237256dd4653": {
+        "componentId": "cc6b7582-a828-4245-b233-237256dd4653",
+        "pageId": "6f4589ca-bbc8-48f1-9af2-925d5e1a214f",
+        "componentType": "link",
+        "businessName": "Upgrade",
+        "normalizedName": "upgrade",
+        "automationName": "Upgrade",
+        "confidence": 80,
+        "createdAt": "Mon Jul 20 2026 16:00:50 GMT+0530 (India Standard Time)"
+      },
+      "1dd3ed17-caeb-43d3-bb64-56ada853a51a": {
+        "componentId": "1dd3ed17-caeb-43d3-bb64-56ada853a51a",
+        "pageId": "6f4589ca-bbc8-48f1-9af2-925d5e1a214f",
+        "componentType": "button",
+        "businessName": "Button 3",
+        "normalizedName": "button 3",
+        "automationName": "Button 3",
+        "confidence": 80,
+        "createdAt": "Mon Jul 20 2026 16:00:49 GMT+0530 (India Standard Time)"
+      },
+      "0d16ad04-6206-46ba-8f3d-f9b59c047676": {
+        "componentId": "0d16ad04-6206-46ba-8f3d-f9b59c047676",
+        "pageId": "6f4589ca-bbc8-48f1-9af2-925d5e1a214f",
+        "componentType": "button",
+        "businessName": "Button 4",
+        "normalizedName": "button 4",
+        "automationName": "Button 4",
+        "confidence": 80,
+        "createdAt": "Mon Jul 20 2026 16:00:49 GMT+0530 (India Standard Time)"
+      },
+      "8e4246ab-36c4-421d-9524-764d8231bd2c": {
+        "componentId": "8e4246ab-36c4-421d-9524-764d8231bd2c",
+        "pageId": "6f4589ca-bbc8-48f1-9af2-925d5e1a214f",
+        "componentType": "button",
+        "businessName": "Button 5",
+        "normalizedName": "button 5",
+        "automationName": "Button 5",
+        "confidence": 80,
+        "createdAt": "Mon Jul 20 2026 16:00:49 GMT+0530 (India Standard Time)"
+      },
+      "05560184-d69e-4848-9bda-f6aea7c53e08": {
+        "componentId": "05560184-d69e-4848-9bda-f6aea7c53e08",
+        "pageId": "6f4589ca-bbc8-48f1-9af2-925d5e1a214f",
+        "componentType": "button",
+        "businessName": "Button 6",
+        "normalizedName": "button 6",
+        "automationName": "Button 6",
+        "confidence": 80,
+        "createdAt": "Mon Jul 20 2026 16:00:50 GMT+0530 (India Standard Time)"
+      },
+      "64b22e4c-4b3e-4bff-b081-5fd11774c150": {
+        "componentId": "64b22e4c-4b3e-4bff-b081-5fd11774c150",
+        "pageId": "6f4589ca-bbc8-48f1-9af2-925d5e1a214f",
+        "componentType": "button",
+        "businessName": "Button 7",
+        "normalizedName": "button 7",
+        "automationName": "Button 7",
+        "confidence": 80,
+        "createdAt": "Mon Jul 20 2026 16:00:50 GMT+0530 (India Standard Time)"
+      },
+      "b4dc692f-9e1e-4fc3-bf39-b363ba02d1b0": {
+        "componentId": "b4dc692f-9e1e-4fc3-bf39-b363ba02d1b0",
+        "pageId": "6f4589ca-bbc8-48f1-9af2-925d5e1a214f",
+        "componentType": "button",
+        "businessName": "Button 8",
+        "normalizedName": "button 8",
+        "automationName": "Button 8",
+        "confidence": 80,
+        "createdAt": "Mon Jul 20 2026 16:00:50 GMT+0530 (India Standard Time)"
+      },
+      "f3b0f963-a3a5-4f8f-889a-1a1447309aeb": {
+        "componentId": "f3b0f963-a3a5-4f8f-889a-1a1447309aeb",
+        "pageId": "6f4589ca-bbc8-48f1-9af2-925d5e1a214f",
+        "componentType": "button",
+        "businessName": "Button 9",
+        "normalizedName": "button 9",
+        "automationName": "Button 9",
+        "confidence": 80,
+        "createdAt": "Mon Jul 20 2026 16:00:50 GMT+0530 (India Standard Time)"
+      },
+      "a7f0f5fd-a719-4240-a042-91a24494fc6f": {
+        "componentId": "a7f0f5fd-a719-4240-a042-91a24494fc6f",
+        "pageId": "6f4589ca-bbc8-48f1-9af2-925d5e1a214f",
+        "componentType": "button",
+        "businessName": "Button 10",
+        "normalizedName": "button 10",
+        "automationName": "Button 10",
+        "confidence": 80,
+        "createdAt": "Mon Jul 20 2026 16:00:50 GMT+0530 (India Standard Time)"
+      },
+      "fd35a8c5-c5d0-4fee-a948-3dbf358462b6": {
+        "componentId": "fd35a8c5-c5d0-4fee-a948-3dbf358462b6",
+        "pageId": "6f4589ca-bbc8-48f1-9af2-925d5e1a214f",
+        "componentType": "button",
+        "businessName": "Button 11",
+        "normalizedName": "button 11",
+        "automationName": "Button 11",
+        "confidence": 80,
+        "createdAt": "Mon Jul 20 2026 16:00:50 GMT+0530 (India Standard Time)"
+      },
+      "6c6411b2-e047-40eb-894d-cf6e449e9b0b": {
+        "componentId": "6c6411b2-e047-40eb-894d-cf6e449e9b0b",
+        "pageId": "6f4589ca-bbc8-48f1-9af2-925d5e1a214f",
+        "componentType": "button",
+        "businessName": "Button 12",
+        "normalizedName": "button 12",
+        "automationName": "Button 12",
+        "confidence": 80,
+        "createdAt": "Mon Jul 20 2026 16:00:50 GMT+0530 (India Standard Time)"
+      },
+      "5d8d8b82-bf30-4b7c-a6ee-4cf9556879be": {
+        "componentId": "5d8d8b82-bf30-4b7c-a6ee-4cf9556879be",
+        "pageId": "6f4589ca-bbc8-48f1-9af2-925d5e1a214f",
+        "componentType": "link",
+        "businessName": "Link 1",
+        "normalizedName": "link 1",
+        "automationName": "Link 1",
+        "confidence": 80,
+        "createdAt": "Mon Jul 20 2026 16:00:50 GMT+0530 (India Standard Time)"
+      },
+      "8dc731f7-8b5a-4cba-9a80-8ac031d7a3c6": {
+        "componentId": "8dc731f7-8b5a-4cba-9a80-8ac031d7a3c6",
+        "pageId": "6f4589ca-bbc8-48f1-9af2-925d5e1a214f",
+        "componentType": "link",
+        "businessName": "Admin",
+        "normalizedName": "admin",
+        "automationName": "Admin",
+        "confidence": 80,
+        "createdAt": "Mon Jul 20 2026 16:00:50 GMT+0530 (India Standard Time)"
+      },
+      "b0c45ee6-76f1-4ef7-a2ac-9e246d38b442": {
+        "componentId": "b0c45ee6-76f1-4ef7-a2ac-9e246d38b442",
+        "pageId": "6f4589ca-bbc8-48f1-9af2-925d5e1a214f",
+        "componentType": "link",
+        "businessName": "PIM",
+        "normalizedName": "pim",
+        "automationName": "PIM",
+        "confidence": 80,
+        "createdAt": "Mon Jul 20 2026 16:00:50 GMT+0530 (India Standard Time)"
+      },
+      "ae7e3e43-4136-4e96-a5a1-85ceaa46a1f2": {
+        "componentId": "ae7e3e43-4136-4e96-a5a1-85ceaa46a1f2",
+        "pageId": "6f4589ca-bbc8-48f1-9af2-925d5e1a214f",
+        "componentType": "link",
+        "businessName": "Leave",
+        "normalizedName": "leave",
+        "automationName": "Leave",
+        "confidence": 80,
+        "createdAt": "Mon Jul 20 2026 16:00:50 GMT+0530 (India Standard Time)"
+      },
+      "8a7f374f-7953-4506-9de1-623daaf91a39": {
+        "componentId": "8a7f374f-7953-4506-9de1-623daaf91a39",
+        "pageId": "6f4589ca-bbc8-48f1-9af2-925d5e1a214f",
+        "componentType": "link",
+        "businessName": "Time",
+        "normalizedName": "time",
+        "automationName": "Time",
+        "confidence": 80,
+        "createdAt": "Mon Jul 20 2026 16:00:50 GMT+0530 (India Standard Time)"
+      },
+      "260bd0be-4ddc-471f-ae34-148a79b1cfa1": {
+        "componentId": "260bd0be-4ddc-471f-ae34-148a79b1cfa1",
+        "pageId": "6f4589ca-bbc8-48f1-9af2-925d5e1a214f",
+        "componentType": "link",
+        "businessName": "Recruitment",
+        "normalizedName": "recruitment",
+        "automationName": "Recruitment",
+        "confidence": 80,
+        "createdAt": "Mon Jul 20 2026 16:00:50 GMT+0530 (India Standard Time)"
+      },
+      "5485ea19-75ed-4b09-ae27-7e8061ecb48c": {
+        "componentId": "5485ea19-75ed-4b09-ae27-7e8061ecb48c",
+        "pageId": "6f4589ca-bbc8-48f1-9af2-925d5e1a214f",
+        "componentType": "link",
+        "businessName": "My Info",
+        "normalizedName": "my info",
+        "automationName": "My Info",
+        "confidence": 80,
+        "createdAt": "Mon Jul 20 2026 16:00:50 GMT+0530 (India Standard Time)"
+      },
+      "f6344c6b-62fa-4327-837b-d70d889df3d1": {
+        "componentId": "f6344c6b-62fa-4327-837b-d70d889df3d1",
+        "pageId": "6f4589ca-bbc8-48f1-9af2-925d5e1a214f",
+        "componentType": "link",
+        "businessName": "Performance",
+        "normalizedName": "performance",
+        "automationName": "Performance",
+        "confidence": 80,
+        "createdAt": "Mon Jul 20 2026 16:00:50 GMT+0530 (India Standard Time)"
+      },
+      "427f7ac1-7af8-427f-b853-dece130945fd": {
+        "componentId": "427f7ac1-7af8-427f-b853-dece130945fd",
+        "pageId": "6f4589ca-bbc8-48f1-9af2-925d5e1a214f",
+        "componentType": "link",
+        "businessName": "Dashboard",
+        "normalizedName": "dashboard",
+        "automationName": "Dashboard",
+        "confidence": 80,
+        "createdAt": "Mon Jul 20 2026 16:00:50 GMT+0530 (India Standard Time)"
+      },
+      "7ac4c40b-9879-46d7-8c0f-d663fa5f5ee5": {
+        "componentId": "7ac4c40b-9879-46d7-8c0f-d663fa5f5ee5",
+        "pageId": "6f4589ca-bbc8-48f1-9af2-925d5e1a214f",
+        "componentType": "link",
+        "businessName": "Directory",
+        "normalizedName": "directory",
+        "automationName": "Directory",
+        "confidence": 80,
+        "createdAt": "Mon Jul 20 2026 16:00:50 GMT+0530 (India Standard Time)"
+      },
+      "08fe0de7-362c-42d0-83ff-d043451b6908": {
+        "componentId": "08fe0de7-362c-42d0-83ff-d043451b6908",
+        "pageId": "6f4589ca-bbc8-48f1-9af2-925d5e1a214f",
+        "componentType": "link",
+        "businessName": "Maintenance",
+        "normalizedName": "maintenance",
+        "automationName": "Maintenance",
+        "confidence": 80,
+        "createdAt": "Mon Jul 20 2026 16:00:50 GMT+0530 (India Standard Time)"
+      },
+      "f22b1556-7c4e-4caf-9cbf-9352e60a0018": {
+        "componentId": "f22b1556-7c4e-4caf-9cbf-9352e60a0018",
+        "pageId": "6f4589ca-bbc8-48f1-9af2-925d5e1a214f",
+        "componentType": "link",
+        "businessName": "Claim",
+        "normalizedName": "claim",
+        "automationName": "Claim",
+        "confidence": 80,
+        "createdAt": "Mon Jul 20 2026 16:00:50 GMT+0530 (India Standard Time)"
+      },
+      "01457d2d-70a7-4295-8d4a-bb7db3ed8b4e": {
+        "componentId": "01457d2d-70a7-4295-8d4a-bb7db3ed8b4e",
+        "pageId": "6f4589ca-bbc8-48f1-9af2-925d5e1a214f",
+        "componentType": "link",
+        "businessName": "Buzz",
+        "normalizedName": "buzz",
+        "automationName": "Buzz",
+        "confidence": 80,
+        "createdAt": "Mon Jul 20 2026 16:00:50 GMT+0530 (India Standard Time)"
+      },
+      "d6cb332a-32ec-4824-a020-0aec166e75ec": {
+        "componentId": "d6cb332a-32ec-4824-a020-0aec166e75ec",
+        "pageId": "6f4589ca-bbc8-48f1-9af2-925d5e1a214f",
+        "componentType": "link",
+        "businessName": "OrangeHRM, Inc",
+        "normalizedName": "orangehrm, inc",
+        "automationName": "OrangeHRM, Inc",
+        "confidence": 80,
+        "createdAt": "Mon Jul 20 2026 16:00:50 GMT+0530 (India Standard Time)"
+      },
+      "3f20af8f-5b7b-43b0-93f5-854eb88e4955": {
+        "componentId": "3f20af8f-5b7b-43b0-93f5-854eb88e4955",
+        "pageId": "74078d12-5153-4ff1-bc43-b3b2a98cc2e3",
+        "componentType": "link",
+        "businessName": "Admin",
+        "normalizedName": "admin",
+        "automationName": "Admin",
+        "confidence": 80,
+        "createdAt": "Mon Jul 20 2026 16:02:06 GMT+0530 (India Standard Time)"
+      },
+      "2e9265c7-ac9b-485c-936d-f89ee28e6ab3": {
+        "componentId": "2e9265c7-ac9b-485c-936d-f89ee28e6ab3",
+        "pageId": "97596b5d-b2c5-45e7-9c86-6927e932d8b3",
+        "componentType": "link",
+        "businessName": "PIM",
+        "normalizedName": "pim",
+        "automationName": "PIM",
+        "confidence": 80,
+        "createdAt": "Mon Jul 20 2026 16:03:02 GMT+0530 (India Standard Time)"
+      }
+    },
+    "cachedNavigation": [],
+    "cachedVerification": {
+      "2183c26c-c410-4912-be67-a09e2aff0a03": {
+        "headings": []
+      },
+      "81d5a255-8a3d-4ab3-a3c5-d99949c8fe9c": {
+        "headings": []
+      },
+      "ac8ef7b2-839d-4f3e-b2e3-9acaa63e9e0e": {
+        "headings": []
+      },
+      "2bcb48d0-849d-4054-b911-78ad7a5f4bbe": {
+        "headings": []
+      },
+      "aa54d04c-a991-4e38-9b34-882df2f5c50a": {
+        "headings": []
+      },
+      "fe6880c4-1feb-4a88-9521-a9b6f23c7d18": {
+        "headings": []
+      },
+      "6f4589ca-bbc8-48f1-9af2-925d5e1a214f": {
+        "headings": []
+      },
+      "74078d12-5153-4ff1-bc43-b3b2a98cc2e3": {
+        "headings": []
+      },
+      "97596b5d-b2c5-45e7-9c86-6927e932d8b3": {
+        "headings": []
+      }
+    },
+    "cachedMetadata": {
+      "createdAt": "2026-07-20T10:21:47.453Z",
+      "lastOpenedAt": "2026-07-20T11:38:26.825Z",
+      "version": "1"
+    },
+    "repositoryHits": 0,
+    "cacheHits": 1
+  },
+  "OrangeHRM:Login.feature:mrt5mcey": {
+    "sessionId": "OrangeHRM:Login.feature:mrt5mcey",
+    "application": "OrangeHRM",
+    "feature": "Login.feature",
+    "repositoryVersion": "1",
+    "snapshotVersion": null,
+    "createdAt": "2026-07-20T11:41:32.890Z",
+    "lastAccessed": "2026-07-20T11:41:32.973Z",
+    "knowledgeHealth": "ok",
+    "cachedPages": {
+      "2183c26c-c410-4912-be67-a09e2aff0a03": {
+        "pageId": "2183c26c-c410-4912-be67-a09e2aff0a03",
+        "pageName": "OrangeHRM",
+        "urlPattern": "https://opensource-demo.orangehrmlive.com/web/index.php/auth/login",
+        "title": "OrangeHRM",
+        "discoveredDate": "Mon Jul 20 2026 15:51:57 GMT+0530 (India Standard Time)",
+        "lastUpdated": "2026-07-20T10:23:57.756Z",
+        "components": [],
+        "navigationLinks": []
+      },
+      "81d5a255-8a3d-4ab3-a3c5-d99949c8fe9c": {
+        "pageId": "81d5a255-8a3d-4ab3-a3c5-d99949c8fe9c",
+        "pageName": "OrangeHRM",
+        "urlPattern": "https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index",
+        "title": "OrangeHRM",
+        "discoveredDate": "Mon Jul 20 2026 15:52:12 GMT+0530 (India Standard Time)",
+        "lastUpdated": "2026-07-20T10:24:27.133Z",
+        "components": [],
+        "navigationLinks": []
+      },
+      "ac8ef7b2-839d-4f3e-b2e3-9acaa63e9e0e": {
+        "pageId": "ac8ef7b2-839d-4f3e-b2e3-9acaa63e9e0e",
+        "pageName": "OrangeHRM",
+        "urlPattern": "https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers",
+        "title": "OrangeHRM",
+        "discoveredDate": "Mon Jul 20 2026 15:53:42 GMT+0530 (India Standard Time)",
+        "lastUpdated": "2026-07-20T10:23:45.115Z",
+        "components": [],
+        "navigationLinks": []
+      },
+      "2bcb48d0-849d-4054-b911-78ad7a5f4bbe": {
+        "pageId": "2bcb48d0-849d-4054-b911-78ad7a5f4bbe",
+        "pageName": "OrangeHRM",
+        "urlPattern": "https://opensource-demo.orangehrmlive.com/web/index.php/auth/login",
+        "title": "OrangeHRM",
+        "discoveredDate": "Mon Jul 20 2026 15:55:08 GMT+0530 (India Standard Time)",
+        "lastUpdated": "2026-07-20T10:25:14.519Z",
+        "components": [],
+        "navigationLinks": []
+      },
+      "aa54d04c-a991-4e38-9b34-882df2f5c50a": {
+        "pageId": "aa54d04c-a991-4e38-9b34-882df2f5c50a",
+        "pageName": "OrangeHRM",
+        "urlPattern": "https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index",
+        "title": "OrangeHRM",
+        "discoveredDate": "Mon Jul 20 2026 15:55:30 GMT+0530 (India Standard Time)",
+        "lastUpdated": "2026-07-20T10:26:05.192Z",
+        "components": [],
+        "navigationLinks": []
+      },
+      "fe6880c4-1feb-4a88-9521-a9b6f23c7d18": {
+        "pageId": "fe6880c4-1feb-4a88-9521-a9b6f23c7d18",
+        "pageName": "OrangeHRM",
+        "urlPattern": "https://opensource-demo.orangehrmlive.com/web/index.php/auth/login",
+        "title": "OrangeHRM",
+        "discoveredDate": "Mon Jul 20 2026 16:00:17 GMT+0530 (India Standard Time)",
+        "lastUpdated": "2026-07-20T10:32:39.816Z",
+        "components": [],
+        "navigationLinks": []
+      },
+      "6f4589ca-bbc8-48f1-9af2-925d5e1a214f": {
+        "pageId": "6f4589ca-bbc8-48f1-9af2-925d5e1a214f",
+        "pageName": "OrangeHRM",
+        "urlPattern": "https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index",
+        "title": "OrangeHRM",
+        "discoveredDate": "Mon Jul 20 2026 16:00:49 GMT+0530 (India Standard Time)",
+        "lastUpdated": "2026-07-20T10:32:58.024Z",
+        "components": [],
+        "navigationLinks": []
+      },
+      "74078d12-5153-4ff1-bc43-b3b2a98cc2e3": {
+        "pageId": "74078d12-5153-4ff1-bc43-b3b2a98cc2e3",
+        "pageName": "OrangeHRM",
+        "urlPattern": "https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers",
+        "title": "OrangeHRM",
+        "discoveredDate": "Mon Jul 20 2026 16:02:06 GMT+0530 (India Standard Time)",
+        "lastUpdated": "2026-07-20T10:32:30.169Z",
+        "components": [],
+        "navigationLinks": []
+      },
+      "97596b5d-b2c5-45e7-9c86-6927e932d8b3": {
+        "pageId": "97596b5d-b2c5-45e7-9c86-6927e932d8b3",
+        "pageName": "OrangeHRM",
+        "urlPattern": "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewEmployeeList",
+        "title": "OrangeHRM",
+        "discoveredDate": "Mon Jul 20 2026 16:03:02 GMT+0530 (India Standard Time)",
+        "lastUpdated": "2026-07-20T10:33:44.492Z",
+        "components": [],
+        "navigationLinks": []
+      }
+    },
+    "cachedComponents": {
+      "7b6f4a5f-7e01-4973-90d3-aced8da24ac3": {
+        "componentId": "7b6f4a5f-7e01-4973-90d3-aced8da24ac3",
+        "pageId": "6f4589ca-bbc8-48f1-9af2-925d5e1a214f",
+        "componentType": "button",
+        "businessName": "Button 1",
+        "normalizedName": "button 1",
+        "automationName": "Button 1",
+        "confidence": 80,
+        "createdAt": "Mon Jul 20 2026 16:00:49 GMT+0530 (India Standard Time)"
+      },
+      "cc6b7582-a828-4245-b233-237256dd4653": {
+        "componentId": "cc6b7582-a828-4245-b233-237256dd4653",
+        "pageId": "6f4589ca-bbc8-48f1-9af2-925d5e1a214f",
+        "componentType": "link",
+        "businessName": "Upgrade",
+        "normalizedName": "upgrade",
+        "automationName": "Upgrade",
+        "confidence": 80,
+        "createdAt": "Mon Jul 20 2026 16:00:50 GMT+0530 (India Standard Time)"
+      },
+      "1dd3ed17-caeb-43d3-bb64-56ada853a51a": {
+        "componentId": "1dd3ed17-caeb-43d3-bb64-56ada853a51a",
+        "pageId": "6f4589ca-bbc8-48f1-9af2-925d5e1a214f",
+        "componentType": "button",
+        "businessName": "Button 3",
+        "normalizedName": "button 3",
+        "automationName": "Button 3",
+        "confidence": 80,
+        "createdAt": "Mon Jul 20 2026 16:00:49 GMT+0530 (India Standard Time)"
+      },
+      "0d16ad04-6206-46ba-8f3d-f9b59c047676": {
+        "componentId": "0d16ad04-6206-46ba-8f3d-f9b59c047676",
+        "pageId": "6f4589ca-bbc8-48f1-9af2-925d5e1a214f",
+        "componentType": "button",
+        "businessName": "Button 4",
+        "normalizedName": "button 4",
+        "automationName": "Button 4",
+        "confidence": 80,
+        "createdAt": "Mon Jul 20 2026 16:00:49 GMT+0530 (India Standard Time)"
+      },
+      "8e4246ab-36c4-421d-9524-764d8231bd2c": {
+        "componentId": "8e4246ab-36c4-421d-9524-764d8231bd2c",
+        "pageId": "6f4589ca-bbc8-48f1-9af2-925d5e1a214f",
+        "componentType": "button",
+        "businessName": "Button 5",
+        "normalizedName": "button 5",
+        "automationName": "Button 5",
+        "confidence": 80,
+        "createdAt": "Mon Jul 20 2026 16:00:49 GMT+0530 (India Standard Time)"
+      },
+      "05560184-d69e-4848-9bda-f6aea7c53e08": {
+        "componentId": "05560184-d69e-4848-9bda-f6aea7c53e08",
+        "pageId": "6f4589ca-bbc8-48f1-9af2-925d5e1a214f",
+        "componentType": "button",
+        "businessName": "Button 6",
+        "normalizedName": "button 6",
+        "automationName": "Button 6",
+        "confidence": 80,
+        "createdAt": "Mon Jul 20 2026 16:00:50 GMT+0530 (India Standard Time)"
+      },
+      "64b22e4c-4b3e-4bff-b081-5fd11774c150": {
+        "componentId": "64b22e4c-4b3e-4bff-b081-5fd11774c150",
+        "pageId": "6f4589ca-bbc8-48f1-9af2-925d5e1a214f",
+        "componentType": "button",
+        "businessName": "Button 7",
+        "normalizedName": "button 7",
+        "automationName": "Button 7",
+        "confidence": 80,
+        "createdAt": "Mon Jul 20 2026 16:00:50 GMT+0530 (India Standard Time)"
+      },
+      "b4dc692f-9e1e-4fc3-bf39-b363ba02d1b0": {
+        "componentId": "b4dc692f-9e1e-4fc3-bf39-b363ba02d1b0",
+        "pageId": "6f4589ca-bbc8-48f1-9af2-925d5e1a214f",
+        "componentType": "button",
+        "businessName": "Button 8",
+        "normalizedName": "button 8",
+        "automationName": "Button 8",
+        "confidence": 80,
+        "createdAt": "Mon Jul 20 2026 16:00:50 GMT+0530 (India Standard Time)"
+      },
+      "f3b0f963-a3a5-4f8f-889a-1a1447309aeb": {
+        "componentId": "f3b0f963-a3a5-4f8f-889a-1a1447309aeb",
+        "pageId": "6f4589ca-bbc8-48f1-9af2-925d5e1a214f",
+        "componentType": "button",
+        "businessName": "Button 9",
+        "normalizedName": "button 9",
+        "automationName": "Button 9",
+        "confidence": 80,
+        "createdAt": "Mon Jul 20 2026 16:00:50 GMT+0530 (India Standard Time)"
+      },
+      "a7f0f5fd-a719-4240-a042-91a24494fc6f": {
+        "componentId": "a7f0f5fd-a719-4240-a042-91a24494fc6f",
+        "pageId": "6f4589ca-bbc8-48f1-9af2-925d5e1a214f",
+        "componentType": "button",
+        "businessName": "Button 10",
+        "normalizedName": "button 10",
+        "automationName": "Button 10",
+        "confidence": 80,
+        "createdAt": "Mon Jul 20 2026 16:00:50 GMT+0530 (India Standard Time)"
+      },
+      "fd35a8c5-c5d0-4fee-a948-3dbf358462b6": {
+        "componentId": "fd35a8c5-c5d0-4fee-a948-3dbf358462b6",
+        "pageId": "6f4589ca-bbc8-48f1-9af2-925d5e1a214f",
+        "componentType": "button",
+        "businessName": "Button 11",
+        "normalizedName": "button 11",
+        "automationName": "Button 11",
+        "confidence": 80,
+        "createdAt": "Mon Jul 20 2026 16:00:50 GMT+0530 (India Standard Time)"
+      },
+      "6c6411b2-e047-40eb-894d-cf6e449e9b0b": {
+        "componentId": "6c6411b2-e047-40eb-894d-cf6e449e9b0b",
+        "pageId": "6f4589ca-bbc8-48f1-9af2-925d5e1a214f",
+        "componentType": "button",
+        "businessName": "Button 12",
+        "normalizedName": "button 12",
+        "automationName": "Button 12",
+        "confidence": 80,
+        "createdAt": "Mon Jul 20 2026 16:00:50 GMT+0530 (India Standard Time)"
+      },
+      "5d8d8b82-bf30-4b7c-a6ee-4cf9556879be": {
+        "componentId": "5d8d8b82-bf30-4b7c-a6ee-4cf9556879be",
+        "pageId": "6f4589ca-bbc8-48f1-9af2-925d5e1a214f",
+        "componentType": "link",
+        "businessName": "Link 1",
+        "normalizedName": "link 1",
+        "automationName": "Link 1",
+        "confidence": 80,
+        "createdAt": "Mon Jul 20 2026 16:00:50 GMT+0530 (India Standard Time)"
+      },
+      "8dc731f7-8b5a-4cba-9a80-8ac031d7a3c6": {
+        "componentId": "8dc731f7-8b5a-4cba-9a80-8ac031d7a3c6",
+        "pageId": "6f4589ca-bbc8-48f1-9af2-925d5e1a214f",
+        "componentType": "link",
+        "businessName": "Admin",
+        "normalizedName": "admin",
+        "automationName": "Admin",
+        "confidence": 80,
+        "createdAt": "Mon Jul 20 2026 16:00:50 GMT+0530 (India Standard Time)"
+      },
+      "b0c45ee6-76f1-4ef7-a2ac-9e246d38b442": {
+        "componentId": "b0c45ee6-76f1-4ef7-a2ac-9e246d38b442",
+        "pageId": "6f4589ca-bbc8-48f1-9af2-925d5e1a214f",
+        "componentType": "link",
+        "businessName": "PIM",
+        "normalizedName": "pim",
+        "automationName": "PIM",
+        "confidence": 80,
+        "createdAt": "Mon Jul 20 2026 16:00:50 GMT+0530 (India Standard Time)"
+      },
+      "ae7e3e43-4136-4e96-a5a1-85ceaa46a1f2": {
+        "componentId": "ae7e3e43-4136-4e96-a5a1-85ceaa46a1f2",
+        "pageId": "6f4589ca-bbc8-48f1-9af2-925d5e1a214f",
+        "componentType": "link",
+        "businessName": "Leave",
+        "normalizedName": "leave",
+        "automationName": "Leave",
+        "confidence": 80,
+        "createdAt": "Mon Jul 20 2026 16:00:50 GMT+0530 (India Standard Time)"
+      },
+      "8a7f374f-7953-4506-9de1-623daaf91a39": {
+        "componentId": "8a7f374f-7953-4506-9de1-623daaf91a39",
+        "pageId": "6f4589ca-bbc8-48f1-9af2-925d5e1a214f",
+        "componentType": "link",
+        "businessName": "Time",
+        "normalizedName": "time",
+        "automationName": "Time",
+        "confidence": 80,
+        "createdAt": "Mon Jul 20 2026 16:00:50 GMT+0530 (India Standard Time)"
+      },
+      "260bd0be-4ddc-471f-ae34-148a79b1cfa1": {
+        "componentId": "260bd0be-4ddc-471f-ae34-148a79b1cfa1",
+        "pageId": "6f4589ca-bbc8-48f1-9af2-925d5e1a214f",
+        "componentType": "link",
+        "businessName": "Recruitment",
+        "normalizedName": "recruitment",
+        "automationName": "Recruitment",
+        "confidence": 80,
+        "createdAt": "Mon Jul 20 2026 16:00:50 GMT+0530 (India Standard Time)"
+      },
+      "5485ea19-75ed-4b09-ae27-7e8061ecb48c": {
+        "componentId": "5485ea19-75ed-4b09-ae27-7e8061ecb48c",
+        "pageId": "6f4589ca-bbc8-48f1-9af2-925d5e1a214f",
+        "componentType": "link",
+        "businessName": "My Info",
+        "normalizedName": "my info",
+        "automationName": "My Info",
+        "confidence": 80,
+        "createdAt": "Mon Jul 20 2026 16:00:50 GMT+0530 (India Standard Time)"
+      },
+      "f6344c6b-62fa-4327-837b-d70d889df3d1": {
+        "componentId": "f6344c6b-62fa-4327-837b-d70d889df3d1",
+        "pageId": "6f4589ca-bbc8-48f1-9af2-925d5e1a214f",
+        "componentType": "link",
+        "businessName": "Performance",
+        "normalizedName": "performance",
+        "automationName": "Performance",
+        "confidence": 80,
+        "createdAt": "Mon Jul 20 2026 16:00:50 GMT+0530 (India Standard Time)"
+      },
+      "427f7ac1-7af8-427f-b853-dece130945fd": {
+        "componentId": "427f7ac1-7af8-427f-b853-dece130945fd",
+        "pageId": "6f4589ca-bbc8-48f1-9af2-925d5e1a214f",
+        "componentType": "link",
+        "businessName": "Dashboard",
+        "normalizedName": "dashboard",
+        "automationName": "Dashboard",
+        "confidence": 80,
+        "createdAt": "Mon Jul 20 2026 16:00:50 GMT+0530 (India Standard Time)"
+      },
+      "7ac4c40b-9879-46d7-8c0f-d663fa5f5ee5": {
+        "componentId": "7ac4c40b-9879-46d7-8c0f-d663fa5f5ee5",
+        "pageId": "6f4589ca-bbc8-48f1-9af2-925d5e1a214f",
+        "componentType": "link",
+        "businessName": "Directory",
+        "normalizedName": "directory",
+        "automationName": "Directory",
+        "confidence": 80,
+        "createdAt": "Mon Jul 20 2026 16:00:50 GMT+0530 (India Standard Time)"
+      },
+      "08fe0de7-362c-42d0-83ff-d043451b6908": {
+        "componentId": "08fe0de7-362c-42d0-83ff-d043451b6908",
+        "pageId": "6f4589ca-bbc8-48f1-9af2-925d5e1a214f",
+        "componentType": "link",
+        "businessName": "Maintenance",
+        "normalizedName": "maintenance",
+        "automationName": "Maintenance",
+        "confidence": 80,
+        "createdAt": "Mon Jul 20 2026 16:00:50 GMT+0530 (India Standard Time)"
+      },
+      "f22b1556-7c4e-4caf-9cbf-9352e60a0018": {
+        "componentId": "f22b1556-7c4e-4caf-9cbf-9352e60a0018",
+        "pageId": "6f4589ca-bbc8-48f1-9af2-925d5e1a214f",
+        "componentType": "link",
+        "businessName": "Claim",
+        "normalizedName": "claim",
+        "automationName": "Claim",
+        "confidence": 80,
+        "createdAt": "Mon Jul 20 2026 16:00:50 GMT+0530 (India Standard Time)"
+      },
+      "01457d2d-70a7-4295-8d4a-bb7db3ed8b4e": {
+        "componentId": "01457d2d-70a7-4295-8d4a-bb7db3ed8b4e",
+        "pageId": "6f4589ca-bbc8-48f1-9af2-925d5e1a214f",
+        "componentType": "link",
+        "businessName": "Buzz",
+        "normalizedName": "buzz",
+        "automationName": "Buzz",
+        "confidence": 80,
+        "createdAt": "Mon Jul 20 2026 16:00:50 GMT+0530 (India Standard Time)"
+      },
+      "d6cb332a-32ec-4824-a020-0aec166e75ec": {
+        "componentId": "d6cb332a-32ec-4824-a020-0aec166e75ec",
+        "pageId": "6f4589ca-bbc8-48f1-9af2-925d5e1a214f",
+        "componentType": "link",
+        "businessName": "OrangeHRM, Inc",
+        "normalizedName": "orangehrm, inc",
+        "automationName": "OrangeHRM, Inc",
+        "confidence": 80,
+        "createdAt": "Mon Jul 20 2026 16:00:50 GMT+0530 (India Standard Time)"
+      },
+      "3f20af8f-5b7b-43b0-93f5-854eb88e4955": {
+        "componentId": "3f20af8f-5b7b-43b0-93f5-854eb88e4955",
+        "pageId": "74078d12-5153-4ff1-bc43-b3b2a98cc2e3",
+        "componentType": "link",
+        "businessName": "Admin",
+        "normalizedName": "admin",
+        "automationName": "Admin",
+        "confidence": 80,
+        "createdAt": "Mon Jul 20 2026 16:02:06 GMT+0530 (India Standard Time)"
+      },
+      "2e9265c7-ac9b-485c-936d-f89ee28e6ab3": {
+        "componentId": "2e9265c7-ac9b-485c-936d-f89ee28e6ab3",
+        "pageId": "97596b5d-b2c5-45e7-9c86-6927e932d8b3",
+        "componentType": "link",
+        "businessName": "PIM",
+        "normalizedName": "pim",
+        "automationName": "PIM",
+        "confidence": 80,
+        "createdAt": "Mon Jul 20 2026 16:03:02 GMT+0530 (India Standard Time)"
+      }
+    },
+    "cachedNavigation": [],
+    "cachedVerification": {
+      "2183c26c-c410-4912-be67-a09e2aff0a03": {
+        "headings": []
+      },
+      "81d5a255-8a3d-4ab3-a3c5-d99949c8fe9c": {
+        "headings": []
+      },
+      "ac8ef7b2-839d-4f3e-b2e3-9acaa63e9e0e": {
+        "headings": []
+      },
+      "2bcb48d0-849d-4054-b911-78ad7a5f4bbe": {
+        "headings": []
+      },
+      "aa54d04c-a991-4e38-9b34-882df2f5c50a": {
+        "headings": []
+      },
+      "fe6880c4-1feb-4a88-9521-a9b6f23c7d18": {
+        "headings": []
+      },
+      "6f4589ca-bbc8-48f1-9af2-925d5e1a214f": {
+        "headings": []
+      },
+      "74078d12-5153-4ff1-bc43-b3b2a98cc2e3": {
+        "headings": []
+      },
+      "97596b5d-b2c5-45e7-9c86-6927e932d8b3": {
+        "headings": []
+      }
+    },
+    "cachedMetadata": {
+      "createdAt": "2026-07-20T10:21:47.453Z",
+      "lastOpenedAt": "2026-07-20T11:41:32.862Z",
+      "version": "1"
+    },
+    "repositoryHits": 0,
+    "cacheHits": 4
+  }
+}

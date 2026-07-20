@@ -40,47 +40,84 @@ export class KnowledgeEngineService {
 
     async learn(application: string): Promise<ApplicationKnowledge> {
         logger.info({ application }, "Starting application knowledge learning");
-        const page = await this.getPage();
-        const adapter = adapterRegistry.get(application);
 
-logger.info(
-    { application: adapter.name },
-    "Using Application Adapter"
-);
+        try {
+            logger.info({ application }, "Page acquisition started");
+            const page = await this.getPage();
+            logger.info({ application, url: page.url() }, "Page acquisition completed");
 
-await adapter.login(page);
+            const adapter = adapterRegistry.get(application);
+            logger.info({ application: adapter.name }, "Application adapter resolved");
 
-const verified = await adapter.verify(page);
+            logger.info({ application: adapter.name }, "Login started");
+            await adapter.login(page);
+            logger.info({ application: adapter.name, url: page.url() }, "Login completed");
 
-if (!verified) {
-    throw new Error(
-        `${adapter.name} login verification failed.`
-    );
-}
-        const previousPage = this.repository.getPages().at(-1);
+            logger.info({ application: adapter.name }, "Verification started");
+            const verified = await adapter.verify(page);
+            logger.info({ application: adapter.name, verified }, "Verification completed");
 
-        await this.explorer.explore(page);
-        const components = await this.componentDiscovery.discover(page);
-        const locators = await this.discoverLocators(page, Object.values(components).flat());
-        const learnedPage = this.repository.savePage(await this.pageKnowledge.create(page, components, locators));
-        const relationship = this.relationshipService.learnNavigation(previousPage, learnedPage);
-        if (relationship && previousPage) {
-            this.repository.addNavigationTarget(previousPage.id, learnedPage.url);
+            if (!verified) {
+                throw new Error(`${adapter.name} login verification failed.`);
+            }
+
+            const previousPage = this.repository.getPages().at(-1);
+
+            logger.info({ application }, "Application exploration started");
+            await this.explorer.explore(page);
+            logger.info({ application }, "Application exploration completed");
+
+            logger.info({ application }, "Component discovery started");
+            const components = await this.componentDiscovery.discover(page);
+            logger.info(
+                {
+                    application,
+                    counts: {
+                        buttons: components.buttons.length,
+                        links: components.links.length,
+                        inputs: components.inputs.length,
+                        dropdowns: components.dropdowns.length,
+                        forms: components.forms.length,
+                        tables: components.tables.length,
+                        dialogs: components.dialogs.length
+                    }
+                },
+                "Component discovery completed"
+            );
+
+            logger.info({ application }, "Locator discovery started");
+            const locators = await this.discoverLocators(page, Object.values(components).flat());
+            logger.info({ application, locatorCount: locators.length }, "Locator discovery completed");
+
+            logger.info({ application }, "Knowledge persistence started");
+            const learnedPage = this.repository.savePage(await this.pageKnowledge.create(page, components, locators));
+            const relationship = this.relationshipService.learnNavigation(previousPage, learnedPage);
+            if (relationship && previousPage) {
+                this.repository.addNavigationTarget(previousPage.id, learnedPage.url);
+            }
+
+            const applicationMap = applicationMapService.getMap();
+            if (!applicationMap.applicationName) {
+                applicationMapService.create(application);
+            }
+            applicationMapService.rememberCurrentPage(learnedPage.title, learnedPage.url);
+
+            const knowledge = {
+                application: applicationMapService.getMap().applicationName,
+                pages: this.repository.getPages(),
+                relationships: this.repository.getRelationships()
+            };
+
+            logger.info(
+                { application, page: learnedPage.url, pageCount: knowledge.pages.length },
+                "Knowledge saved"
+            );
+            logger.info({ application, page: learnedPage.url }, "Application knowledge learned");
+            return knowledge;
+        } catch (error) {
+            logger.error({ err: error, application }, "Application knowledge learning failed");
+            throw error;
         }
-
-        const applicationMap = applicationMapService.getMap();
-        if (!applicationMap.applicationName) {
-            applicationMapService.create(application);
-        }
-        applicationMapService.rememberCurrentPage(learnedPage.title, learnedPage.url);
-
-        const knowledge = {
-            application: applicationMapService.getMap().applicationName,
-            pages: this.repository.getPages(),
-            relationships: this.repository.getRelationships()
-        };
-        logger.info({ application, page: learnedPage.url }, "Application knowledge learned");
-        return knowledge;
     }
 
     private async discoverLocators(page: Page, components: Component[]): Promise<string[]> {
@@ -92,7 +129,7 @@ if (!verified) {
         try {
             return (await this.locatorDiscovery.find(page, name))?.recommended ?? null;
         } catch (error: unknown) {
-            logger.warn({ error, name }, "Unable to discover component locator");
+            logger.warn({ err: error, name }, "Unable to discover component locator");
             return null;
         }
     }
