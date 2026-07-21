@@ -6,6 +6,7 @@ import LocatorRecord from "./locator-record.js";
 import NavigationRecord from "./navigation-record.js";
 import { KnowledgeIndex } from "./knowledge-index.js";
 import RepositoryMetadata from "./repository-metadata.js";
+import { logger } from "../../utils/logger.js";
 
 const ROOT = ".qabrain";
 
@@ -64,11 +65,11 @@ export class KnowledgeStoreService {
 
         this.loaded = true;
 
-        console.log("Repository Loaded");
-        console.log(`Pages: ${Object.keys(this.pages).length}`);
-        console.log(`Components: ${Object.keys(this.components).length}`);
-        console.log(`Locators: ${Object.keys(this.locators).length}`);
-        console.log(`Snapshots: ${(await this.ensureSnapshots()).length}`);
+        logger.info("Repository Loaded");
+        logger.info({ pages: Object.keys(this.pages).length }, "Repository Pages");
+        logger.info({ components: Object.keys(this.components).length }, "Repository Components");
+        logger.info({ locators: Object.keys(this.locators).length }, "Repository Locators");
+        logger.info({ snapshots: (await this.ensureSnapshots()).length }, "Repository Snapshots");
     }
 
     private async ensureSnapshots(): Promise<string[]> {
@@ -104,7 +105,7 @@ export class KnowledgeStoreService {
             this.pages[page.pageId] = page;
         }
         await writeFile(filePath("pages.json"), JSON.stringify(this.pages, null, 2), "utf8");
-        console.log(`Repository Updated - Page: ${page.pageName}`);
+        logger.info({ page: page.pageName }, "Repository Updated - Page");
     }
 
     // Components
@@ -129,10 +130,10 @@ export class KnowledgeStoreService {
                 lastValidated: component.lastValidated ?? existing.lastValidated
             };
             this.components[component.componentId] = merged;
-            console.log(`Components Updated`);
+            logger.info("Components Updated");
         } else {
             this.components[component.componentId] = component;
-            console.log(`Components Added`);
+            logger.info("Components Added");
         }
         await writeFile(filePath("components.json"), JSON.stringify(this.components, null, 2), "utf8");
     }
@@ -161,6 +162,7 @@ export class KnowledgeStoreService {
             this.locators[locator.locatorId] = locator;
         }
         await writeFile(filePath("locators.json"), JSON.stringify(this.locators, null, 2), "utf8");
+        logger.info({ locators: Object.keys(this.locators).length }, "Locators Persisted");
     }
 
     // Navigation

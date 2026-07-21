@@ -213,12 +213,34 @@ async function executeTool(name: string, argumentsValue: unknown) {
         throw new Error(`${name} is not registered`);
     }
 
+    // tool-level timeout and cancellation support (backward-compatible)
+    const timeoutMs = Number(process.env.TOOL_TIMEOUT_MS ?? 120_000);
+
+    function timeoutPromise(ms: number) {
+        return new Promise<never>((_, rej) => setTimeout(() => rej(new Error("Tool execution timed out")), ms));
+    }
+
+    logger.info({ tool: name, timeoutMs }, "MCP tool execution started");
+
     try {
-        logger.info({ tool: name }, "MCP tool execution started");
-        const result = await tool.execute(argumentsValue);
-        logger.info({ tool: name }, "MCP tool execution completed");
+        const stop = (await import("../utils/metrics.js")).metrics.startTimer("mcp.tool.exec.ms");
+        const execPromise = tool.execute(argumentsValue);
+        const result = await Promise.race([execPromise as Promise<unknown>, timeoutPromise(timeoutMs)]);
+        const ms = stop();
+        (await import("../utils/metrics.js")).metrics.record("mcp.tool.exec.ms", ms, { tool: name });
+        logger.info({ tool: name, durationMs: Math.round(ms) }, "MCP tool execution completed");
         return { content: [{ type: "text" as const, text: JSON.stringify(result) }] };
-    } catch (error) {
+    } catch (error: unknown) {
+        // If timeout occurred, attempt to call a cancel method on the tool (if it exposes one)
+        if ((error as Error).message === "Tool execution timed out") {
+            try {
+                const t: any = tool as any;
+                if (typeof t.cancel === "function") {
+                    try { await t.cancel(); } catch (cancelErr) { logger.warn({ err: cancelErr, tool: name }, "Tool cancel failed"); }
+                }
+            } catch {}
+        }
+        (await import("../utils/metrics.js")).metrics.snapshot("mcp.tool.exec.failure.memory");
         logger.error({ err: error, tool: name }, "MCP tool execution failed");
         throw error;
     }

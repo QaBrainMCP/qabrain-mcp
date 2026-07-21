@@ -1,4 +1,5 @@
-import { LearnApplicationInput, learnApplication } from "../../knowledge/tools/learn-application.tool.js";
+import { LearnApplicationInput } from "../../knowledge/tools/learn-application.tool.js";
+import { discoveryAdapter } from "../../discovery/index.js";
 import { MCPTool } from "../registry/tool.registry.js";
 import { logger } from "../../utils/logger.js";
 
@@ -8,7 +9,7 @@ export const LearnApplicationTool: MCPTool<LearnApplicationInput> = {
     async execute(args: LearnApplicationInput) {
         try {
             logger.info({ application: args.application }, "learn_application tool started");
-            const result = await learnApplication(args);
+            const result = await discoveryAdapter.learn(args.application);
             logger.info({ application: args.application }, "learn_application tool completed");
             return result;
         } catch (error) {

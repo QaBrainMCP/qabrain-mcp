@@ -9,6 +9,7 @@ import { coreTools } from "../plugins/core/tools.js";
 import { azureTools } from "../plugins/azure-devops/mcp/azure.tools.js";
 
 import { createLogger } from "../utils/logger.js";
+import { metrics } from "../utils/metrics.js";
 import type { RuntimeConfig } from "../config/environment.js";
 
 export class QaBrainServer {
@@ -23,6 +24,7 @@ export class QaBrainServer {
     }
 
     public async start(): Promise<Server> {
+        const stop = metrics.startTimer("mcp.server.startup.ms");
         this.logger.info(
             {
                 application: this.config.app.name,
@@ -51,11 +53,14 @@ export class QaBrainServer {
 
         await this.server.connect(transport);
 
+        const ms = stop();
+        metrics.record("mcp.server.startup.ms", ms, { tools: toolRegistry.getAll().length });
         this.logger.info(
             {
                 application: this.config.app.name,
                 version: this.config.app.version,
-                toolCount: toolRegistry.getAll().length
+                toolCount: toolRegistry.getAll().length,
+                startupMs: Math.round(ms)
             },
             "✅ QaBrain MCP Server Started"
         );
@@ -68,7 +73,18 @@ export class QaBrainServer {
 
         try {
             if (this.server) {
-                // Reserved for future SDK disconnect/close support.
+                // Attempt graceful disconnect if the SDK exposes a disconnect/close API.
+                try {
+                    const s: any = this.server;
+                    if (s && typeof s.disconnect === "function") {
+                        await s.disconnect();
+                    } else if (s && typeof s.close === "function") {
+                        await s.close();
+                    }
+                } catch (err) {
+                    // log and continue to null the server reference
+                    this.logger.error({ err }, "Error disconnecting MCP Server");
+                }
                 this.server = null;
             }
 

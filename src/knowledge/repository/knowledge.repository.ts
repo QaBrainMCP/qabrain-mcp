@@ -1,6 +1,7 @@
 import { PageKnowledge } from "../models/page-knowledge.model.js";
 import { Relationship } from "../models/relationship.model.js";
 import { knowledgeStoreService } from "../store/knowledge-store.service.js";
+import { logger } from "../../utils/logger.js";
 import { randomUUID } from "node:crypto";
 
 // bootstrap persistent store into in-memory repository
@@ -37,7 +38,15 @@ import { randomUUID } from "node:crypto";
             }
         }
     } catch (err) {
-        // ignore load errors
+        // Critical: unable to load persistent knowledge store. Log and rethrow to fail fast.
+        try {
+            logger.error({ err }, "Failed to load knowledge store during repository bootstrap");
+        } catch {
+            // fallback to console.error if logger not available
+            // eslint-disable-next-line no-console
+            console.error("Failed to load knowledge store during repository bootstrap", err);
+        }
+        throw err;
     }
  })();
 

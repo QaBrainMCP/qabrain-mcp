@@ -17,12 +17,17 @@ export function createLogger(level: string = "info", pretty: boolean = true) {
           }
         : undefined;
 
-    const logger = pino({
-        level,
-        transport,
-        base: undefined,
-        timestamp: false
-    });
+    const isMcp = (process.env.MCP_MODE ?? "false").toLowerCase() === "true";
+
+    let logger: Logger;
+    if (isMcp) {
+        // When running as an MCP server, ensure logs are emitted to stderr to avoid
+        // contaminating the MCP JSON-RPC stream on stdout.
+        const dest = pino.destination({ dest: 2 });
+        logger = pino({ level, transport, base: undefined, timestamp: false } as any, dest);
+    } else {
+        logger = pino({ level, transport, base: undefined, timestamp: false } as any);
+    }
 
     loggerCache.set(cacheKey, logger);
     return logger;

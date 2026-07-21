@@ -26,13 +26,25 @@ export class PageManager {
     }
 
     async closePage() {
-        if (this.page) {
-            await this.page.close();
-            this.page = null;
-            logger.info("Page Closed");
+        try {
+            if (this.page) {
+                try {
+                    await this.page.close();
+                } catch (err) {
+                    logger.warn({ err }, "Error while closing page");
+                }
+                this.page = null;
+                logger.info("Page Closed");
+            }
+        } finally {
+            try {
+                await browserManager.closePage();
+            } catch (err) {
+                logger.warn({ err }, "Error while closing browser page/context");
+                // attempt a deeper close
+                try { await browserManager.close(); } catch (err2) { logger.error({ err2 }, "Error while closing browser"); }
+            }
         }
-
-        await browserManager.closePage();
     }
 }
 
